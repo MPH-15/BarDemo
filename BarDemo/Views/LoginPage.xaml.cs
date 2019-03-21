@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using BarDemo.Models;
+using System.Diagnostics;
 
 namespace BarDemo.Views
 {
@@ -27,9 +28,13 @@ namespace BarDemo.Views
             var isValid = AreCredentialsCorrect(user);
             if (isValid)
             {
+                Debug.WriteLine("Login is Valid");
                 App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new TabPage(), this);
-                await Navigation.PopAsync();
+                 Navigation.InsertPageBefore(new TabPage(), this);
+                 await Navigation.PopAsync();
+                //Navigation.PushAsync(new TabPage());
+                // The item above includes the ability to go back to the
+                // login page. 
             }
             else
             {

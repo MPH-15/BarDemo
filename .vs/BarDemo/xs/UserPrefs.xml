@@ -2,17 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.BarDemo.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/Views/TabPage.xaml.cs">
     <Files>
-      <File FileName="BarDemo/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="BarDemo/MainPage.xaml" Line="4" Column="14" />
       <File FileName="BarDemo/Views/LoginPage.xaml" Line="4" Column="40" />
-      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="27" Column="45" />
+      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="27" Column="1" />
       <File FileName="BarDemo/App.xaml.cs" Line="23" Column="21" />
       <File FileName="BarDemo/Views/TabPage.xaml" Line="40" Column="1" />
       <File FileName="BarDemo/Views/TabPage.xaml.cs" Line="13" Column="13" />
       <File FileName="BarDemo/Views/SignUpPage.xaml" Line="17" Column="27" />
       <File FileName="BarDemo/Views/SignUpPage.xaml.cs" Line="4" Column="22" />
       <File FileName="BarDemo/Models/User.cs" Line="13" Column="2" />
-      <File FileName="BarDemo/Models/Constants.cs" Line="9" Column="5" />
+      <File FileName="BarDemo/Models/Constants.cs" Line="9" Column="1" />
       <File FileName="BarDemo/Views/SearchPage.xaml" Line="6" Column="1" />
       <File FileName="BarDemo/Views/SearchPage.xaml.cs" Line="1" Column="1" />
       <File FileName="BarDemo/Views/MapPage.xaml" Line="6" Column="1" />
@@ -20,6 +18,21 @@
       <File FileName="BarDemo/Views/ProfilePage.xaml" Line="6" Column="1" />
       <File FileName="BarDemo/Views/ProfilePage.xaml.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BarDemo" expanded="True">
+            <Node name="BarDemo" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="TabPage.xaml" expanded="True">
+                  <Node name="TabPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

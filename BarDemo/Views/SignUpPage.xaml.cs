@@ -30,7 +30,9 @@ namespace BarDemo.Views
                 if (rootPage != null)
                 {
                     App.IsUserLoggedIn = true;
-                    Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack.First());
+                    // clean up below. This used to be 'MainPage()' instead of 'TabPage()'. 
+                    // find out what the page needs to be here. TabPage may be correct.
+                    Navigation.InsertPageBefore(new TabPage(), Navigation.NavigationStack.First());
                     await Navigation.PopToRootAsync();
                 }
             }

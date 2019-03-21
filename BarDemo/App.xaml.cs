@@ -1,13 +1,21 @@
 ﻿using System;
 using BarDemo.Views;
+using BarDemo.Models;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace BarDemo
 {
     public partial class App : Application
     {
+
+        public static double ScreenHeight;
+        public static double ScreenWidth;
+
+
         public static bool IsUserLoggedIn { get; set; }
 
         public App()

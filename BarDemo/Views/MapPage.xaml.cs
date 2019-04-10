@@ -21,18 +21,27 @@ namespace BarDemo.Views
 
             InitializeComponent();
 
+            async void ShowLocation()
+            {
+                var locator = CrossGeolocator.Current;
 
+                var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(10));
 
-            //async void ShowLocation()
-            //{
-            //    var locator = CrossGeolocator.Current;
-            //    var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(10));
+                Debug.WriteLine("Position Status: {0}", position.Timestamp);
+                Debug.WriteLine("Position Latitude: {0}", position.Latitude);
+                Debug.WriteLine("Position Longitude: {0}", position.Longitude);
 
-            //    Debug.WriteLine("Position Status: {0}", position.Timestamp);
-            //    Debug.WriteLine("Position Latitude: {0}", position.Latitude);
-            //    Debug.WriteLine("Position Longitude: {0}", position.Longitude);
-            //}
-            //ShowLocation();
+                map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(position.Latitude, position.Longitude), Distance.FromMiles(5)));
+
+                map.Pins.Add(new Pin
+                {
+                    Type = PinType.Place,
+                    Label = " Map Page",
+                    Position = new Position(position.Latitude, position.Longitude)
+                });
+            }
+
+            ShowLocation();
         }
 
 
@@ -59,4 +68,5 @@ namespace BarDemo.Views
         }
 
     }
+
 }

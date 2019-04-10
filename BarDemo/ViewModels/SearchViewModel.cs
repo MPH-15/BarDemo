@@ -3,6 +3,8 @@ using System.Collections.ObjectModel;
 using BarDemo.Models;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Diagnostics;
+using System.Linq;
 
 
 namespace BarDemo.ViewModels
@@ -16,6 +18,8 @@ namespace BarDemo.ViewModels
          * or when the whole list is refreshed.
          */
 
+  
+
         ObservableCollection<Locations> _cityEntries;
         public ObservableCollection<Locations> CityEntries
         {
@@ -27,9 +31,17 @@ namespace BarDemo.ViewModels
             }
         }
 
+        
+
+        
+
         public SearchViewModel()
         {
             CityEntries = new ObservableCollection<Locations>();
+            
+            Debug.WriteLine("CityEntries: {0}", CityEntries.GetType());
+
+            
 
             CityEntries.Add(new Locations
             {
@@ -51,9 +63,14 @@ namespace BarDemo.ViewModels
                 Latitude = 29.759101,
                 Longitude = -95.369036
             });
+        }
 
 
+        public void SearchCity()
+        {
 
         }
+
+
     }
 }

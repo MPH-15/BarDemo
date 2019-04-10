@@ -11,7 +11,6 @@
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <maps:Map x:Name="map" Grid.RowSpan="3" />
-            <BoxView Grid.Row="1" BackgroundColor="White" Opacity=".8" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

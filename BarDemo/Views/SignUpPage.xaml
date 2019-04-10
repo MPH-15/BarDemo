@@ -11,6 +11,15 @@
             <Entry x:Name="passwordEntry" IsPassword="true" />
             <Label Text="Email address" />
             <Entry x:Name="emailEntry" />
+            <Label Text="Age" />
+            <Entry x:Name="ageEntry" />
+            <Label Text="Gender" />
+            <Picker x:Name="Gender" HorizontalOptions="FillAndExpand">
+            <Picker.Items>
+            <x:String>Male</x:String>
+            <x:String>Female</x:String>
+            </Picker.Items>
+            </Picker>
             <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
             <Label x:Name="messageLabel" />
         </StackLayout>

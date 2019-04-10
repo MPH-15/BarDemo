@@ -23,7 +23,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -146,10 +146,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -165,8 +165,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.220655",
-          "Xamarin.Forms.Maps": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Forms.Maps": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -198,7 +198,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -321,10 +321,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -340,8 +340,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.220655",
-          "Xamarin.Forms.Maps": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Forms.Maps": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -373,7 +373,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -496,10 +496,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -515,8 +515,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.220655",
-          "Xamarin.Forms.Maps": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Forms.Maps": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -548,7 +548,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -671,10 +671,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -690,8 +690,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.220655",
-          "Xamarin.Forms.Maps": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Forms.Maps": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -751,10 +751,10 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
+    "Xamarin.Forms/3.6.0.293080": {
+      "sha512": "o7GH+huLZMGlBxFCFAV5g+P3xoYoXFPeGrZ+AI8ezt2Gey/ZeZjSlf3nR3DzZKClVsCTvJS8Z5rVlC1dexSv+A==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.264807",
+      "path": "xamarin.forms/3.6.0.293080",
       "files": [
         ".signature.p7s",
         "build/MonoAndroid10/proguard.cfg",
@@ -911,14 +911,14 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.264807.nupkg.sha512",
+        "xamarin.forms.3.6.0.293080.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.6.0.220655": {
-      "sha512": "U+mCCvyLpC039q34jecG3XJhO7XcoJDrMaD9ggPK9YGATDy4msvYPDe0SN51ifwpok0FGDJkv4lZqA1DzGgOUQ==",
+    "Xamarin.Forms.Maps/3.6.0.264807": {
+      "sha512": "azNZj9rx4YBj72+fnaF75pbSBMW+t0WrJPhom4K1ITlKEBD5SG8uHA1RKuB5Y2BvRB/akkyExtEfinnsWN0jHw==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.6.0.220655",
+      "path": "xamarin.forms.maps/3.6.0.264807",
       "files": [
         ".signature.p7s",
         "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
@@ -933,10 +933,8 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.Design.dll",
         "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
         "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll",
         "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
         "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
         "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
@@ -945,7 +943,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.6.0.220655.nupkg.sha512",
+        "xamarin.forms.maps.3.6.0.264807.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -958,7 +956,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "BarDemo >= 1.0.0",
-      "Xamarin.Forms >= 3.6.0.264807"
+      "Xamarin.Forms >= 3.6.0.293080"
     ]
   },
   "packageFolders": {
@@ -998,7 +996,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.264807, )"
+            "version": "[3.6.0.293080, )"
           }
         }
       }

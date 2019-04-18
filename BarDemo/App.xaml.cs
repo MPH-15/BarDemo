@@ -24,7 +24,8 @@ namespace BarDemo
 
             if (!IsUserLoggedIn)
             {
-                MainPage = new NavigationPage(new LoginPage());
+                //MainPage = new NavigationPage(new LoginPage());
+                MainPage = new TabPage();
             }
             else
             {

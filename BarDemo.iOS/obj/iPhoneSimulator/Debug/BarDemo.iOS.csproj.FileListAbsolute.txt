@@ -59,3 +59,4 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.iOS\obj\iPhoneSimulator\Debug
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.iOS\obj\iPhoneSimulator\Debug\BarDemo.iOS.csproj.CopyComplete
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.iOS\obj\iPhoneSimulator\Debug\BarDemo.iOS.exe
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.iOS\obj\iPhoneSimulator\Debug\BarDemo.iOS.pdb
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.iOS\bin\iPhoneSimulator\Debug\BarDemo.dll.mdb

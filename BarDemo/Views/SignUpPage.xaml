@@ -4,17 +4,22 @@
              x:Class="BarDemo.Views.SignUpPage"
              Title="Sign Up">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout VerticalOptions="StartAndExpand">
             <Label Text="Username" />
             <Entry x:Name="usernameEntry" Placeholder="username" />
             <Label Text="Password" />
             <Entry x:Name="passwordEntry" IsPassword="true" />
+            <Label Text="First Name" />
+            <Entry x:Name="firstNameEntry" />
+            <Label Text="Last Name" />
+            <Entry x:Name="lastNameEntry" />
             <Label Text="Email address" />
             <Entry x:Name="emailEntry" />
-            <Label Text="Age" />
-            <Entry x:Name="ageEntry" />
-            <Label Text="Gender" />
-            <Picker x:Name="Gender" HorizontalOptions="FillAndExpand">
+            <Label Text="Age"  />
+            <Entry x:Name="ageEntry" Keyboard="Numeric" />
+            <Label Text="Gender"  />
+            <Picker x:Name="genderEntry" HorizontalOptions="FillAndExpand">
             <Picker.Items>
             <x:String>Male</x:String>
             <x:String>Female</x:String>
@@ -23,5 +28,6 @@
             <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
             <Label x:Name="messageLabel" />
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

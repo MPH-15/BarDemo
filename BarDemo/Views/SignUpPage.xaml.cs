@@ -18,7 +18,13 @@ namespace BarDemo.Views
             {
                 Username = usernameEntry.Text,
                 Password = passwordEntry.Text,
-                Email = emailEntry.Text
+                Email = emailEntry.Text,
+                FirstName = firstNameEntry.Text,
+                LastName = lastNameEntry.Text,
+                Age = ageEntry.Text,
+                Gender = (string)genderEntry.SelectedItem
+
+
             };
 
             // Sign up logic goes here
@@ -51,7 +57,13 @@ namespace BarDemo.Views
              *      3) The email isn't null, empty, or consists only of white-space characters. 
              *      4) The email contains an @ symbol.
              */
-            return (!string.IsNullOrWhiteSpace(user.Username) && !string.IsNullOrWhiteSpace(user.Password) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
+            return (!string.IsNullOrWhiteSpace(user.Username) && 
+                    !string.IsNullOrWhiteSpace(user.Password) //&& 
+                  /*  !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@") && 
+                    !string.IsNullOrEmpty(user.FirstName) &&
+                    !string.IsNullOrEmpty(user.LastName) &&
+                    !string.IsNullOrEmpty(user.Age)*/
+                    );
         }
     }
 }

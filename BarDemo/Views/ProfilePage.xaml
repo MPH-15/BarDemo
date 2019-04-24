@@ -5,17 +5,17 @@
              Title= "Profile">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Spacing="0" Padding="0" BackgroundColor="Maroon">
+            <StackLayout Spacing="0" Padding="0" BackgroundColor="White">
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="100"/>
-                <StackLayout HeightRequest="100" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" BackgroundColor="White">
+                <StackLayout HeightRequest="50" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" BackgroundColor="White">
                     <Label Text= "TEST" FontSize="28" HorizontalOptions="Center"
             VerticalOptions="Center" FontAttributes="Bold" />
                 </StackLayout>
                 <StackLayout>
-                    <TableView HasUnevenRows="True">
+                    <TableView HasUnevenRows="True" >
                         <TableView.Root>
                             <TableSection Title="Bio" TextColor="Black" >
-                                <EntryCell Label="Username:" Text="TEST"></EntryCell>
+                                <EntryCell Label="Username:" Text="{Binding Username}"></EntryCell>
                                 <EntryCell Label="Age:" Text="30"></EntryCell>
                                 <EntryCell Label="Interests:" Text="Programming"></EntryCell>
                             </TableSection>

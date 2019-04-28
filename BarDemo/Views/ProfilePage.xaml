@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:u="clr-namespace:BarDemo.ViewModels"
              x:Class="BarDemo.Views.ProfilePage"
              Title= "Profile">
+    <Page.Resources>
+        <!--<u:App x:Key="user"/>-->
+    </Page.Resources>
+    <ContentPage.BindingContext>
+        <u:ProfileViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView >
             <StackLayout Spacing="0" Padding="0" BackgroundColor="White">
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="100"/>
                 <StackLayout HeightRequest="50" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" BackgroundColor="White">
-                    <Label Text= "TEST" FontSize="28" HorizontalOptions="Center"
+                    <Label Text= "{Binding DisplayName}" FontSize="28" HorizontalOptions="Center"
             VerticalOptions="Center" FontAttributes="Bold" />
                 </StackLayout>
                 <StackLayout>
-                    <TableView HasUnevenRows="True" >
-                        <TableView.Root>
+                    <!--<StackLayout.BindingContext>
+                        <u:ProfileViewModel></u:ProfileViewModel>
+                    </StackLayout.BindingContext>-->
+                    <TableView HasUnevenRows="True">
+                        <TableView.Root >
                             <TableSection Title="Bio" TextColor="Black" >
-                                <EntryCell Label="Username:" Text="{Binding Username}"></EntryCell>
+                                <EntryCell Label="Username:" Text="{Binding Username}" Placeholder="Enter Name"></EntryCell>
                                 <EntryCell Label="Age:" Text="30"></EntryCell>
                                 <EntryCell Label="Interests:" Text="Programming"></EntryCell>
                             </TableSection>

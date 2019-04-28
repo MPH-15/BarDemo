@@ -27,6 +27,8 @@ namespace BarDemo.Views
 
             };
 
+            //App.CurrentUser = user;
+
             // Sign up logic goes here
 
             var signUpSucceeded = AreDetailsValid(user);

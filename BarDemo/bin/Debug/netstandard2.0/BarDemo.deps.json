@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "aa4137dc38ad73c557b3deafe2b41c70a046c800"
+    "signature": "1a8e80eef1926e60af391716ee3144d267d4a09a"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "BarDemo/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "SQLite.Net-PCL": "3.1.1",
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807"
@@ -22,6 +23,20 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "SQLite.Net-PCL/3.1.1": {
+        "dependencies": {
+          "SQLite.Net.Core-PCL": "3.1.1"
+        },
+        "runtime": {
+          "lib/net4/SQLite.Net.Platform.Win32.dll": {},
+          "lib/net40/SQLite.Net.Platform.Generic.dll": {}
+        }
+      },
+      "SQLite.Net.Core-PCL/3.1.1": {
+        "runtime": {
+          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
       "Xam.Plugin.Geolocator/4.5.0.6": {
@@ -65,6 +80,20 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "SQLite.Net-PCL/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIaIk+k4MwvBeKyzj1kgIegWXYZlaDAHNzsaYP7wNDgSqAdaza8FgCRun7mIZScJD/RIuKxN/b1V+bkC+/WIeA==",
+      "path": "sqlite.net-pcl/3.1.1",
+      "hashPath": "sqlite.net-pcl.3.1.1.nupkg.sha512"
+    },
+    "SQLite.Net.Core-PCL/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/0VdXnyj2srEh5rM1RW/snXJrVGRsxGB3xjW4EkhZIig9N/8EocZZrEr0vwRJU8a9Lz4BrweoLyKwp2evmSIzg==",
+      "path": "sqlite.net.core-pcl/3.1.1",
+      "hashPath": "sqlite.net.core-pcl.3.1.1.nupkg.sha512"
     },
     "Xam.Plugin.Geolocator/4.5.0.6": {
       "type": "package",

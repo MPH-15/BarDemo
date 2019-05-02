@@ -112,6 +112,8 @@ class MonoPackageManager_Resources {
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.dll",
 		"Plugin.Permissions.dll",
+		"SQLite.Net.dll",
+		"SQLite.Net.Platform.XamarinAndroid.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

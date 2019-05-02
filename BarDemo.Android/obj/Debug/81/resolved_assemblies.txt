@@ -7,6 +7,8 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Plugin.Geolocator.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\SQLite.Net.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Xml.dll
@@ -51,4 +53,15 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Collections.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Reflection.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Linq.Expressions.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Linq.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Globalization.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Threading.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Text.Encoding.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Mono.Security.dll

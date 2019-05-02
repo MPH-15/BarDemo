@@ -45,6 +45,6 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\View
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.csproj.CoreCompileInputs.cache
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.AssemblyInfoInputs.cache
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.AssemblyInfo.cs
-C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.pdb
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\XamlC.stamp

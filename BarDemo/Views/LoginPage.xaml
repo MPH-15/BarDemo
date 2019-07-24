@@ -13,6 +13,8 @@
             <Entry x:Name="passwordEntry" IsPassword="true" />
             <Button Text="Login" Clicked="OnLoginButtonClicked" />
             <Label x:Name="messageLabel" />
+            <Button Text="GMail Login" Clicked="GMailLoginButtonClicked" />
+            <Label x:Name="GMailLoginStatus" />
         </StackLayout>
     </ContentPage.Content>
     </ContentPage>

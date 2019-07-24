@@ -38,5 +38,18 @@
 	<string></string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>BarDemo_OAuth</string>
+			<key>CFBundleURLTypes</key>
+			<string>Viewer</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.692308625365-13i9oe7qa27558e36pcmud77fn0ndtjo</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

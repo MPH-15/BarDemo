@@ -32,11 +32,10 @@ namespace BarDemo.Views
 
         }
 
+
         async void City_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var city = (Locations)e.Item;
-
-
 
             Debug.WriteLine("Search Page - City Name: ", city.CityName);
             Debug.WriteLine("Search Page - City Longitude: {0}", city.Longitude);
@@ -63,7 +62,5 @@ namespace BarDemo.Views
                 cities.EndRefresh();
 
         }
-
-
     }
 }

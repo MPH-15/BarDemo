@@ -29,6 +29,7 @@ namespace BarDemo
             else
             {
                 MainPage = new NavigationPage(new TabPage());
+                //MainPage = new TabPage();
             }
         }
 

@@ -824,6 +824,8 @@ namespace BarDemo.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::BarDemo.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::BarDemo.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::BarDemo.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::BarDemo.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::BarDemo.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::BarDemo.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::BarDemo.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::BarDemo.Droid.Resource.Id.home;
@@ -6257,10 +6259,10 @@ namespace BarDemo.Droid
 			public const int @fixed = 2131492914;
 			
 			// aapt resource value: 0x7F010176
-			public const int flyoutcontent.appbar = 2130772342;
+			public const int flyoutcontent_appbar = 2130772342;
 			
 			// aapt resource value: 0x7F010177
-			public const int flyoutcontent.recycler = 2130772343;
+			public const int flyoutcontent_recycler = 2130772343;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;

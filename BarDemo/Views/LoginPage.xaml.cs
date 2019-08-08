@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using BarDemo.Models;
 using System.Diagnostics;
+using BarDemo.Services;
 
 namespace BarDemo.Views
 {
@@ -10,7 +11,18 @@ namespace BarDemo.Views
         public LoginPage()
         {
             InitializeComponent();
+
+          
+
+            if (IsBusy)
+                return;
+            IsBusy = true;
+
+            
         }
+
+      
+
 
         async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
@@ -35,6 +47,7 @@ namespace BarDemo.Views
                 //Navigation.PushAsync(new TabPage());
                 // The item above includes the ability to go back to the
                 // login page. 
+               
             }
             else
             {

@@ -25,7 +25,7 @@ namespace BarDemo.Database
 
         public Locations GetLocation(int id)
         {
-            return _connection.Table<Locations>().FirstOrDefault(t => t.ID == id);
+            return _connection.Table<Locations>().FirstOrDefault(t => t.Id == id);
         }
 
         public void DeleteLocation(int id)

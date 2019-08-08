@@ -1,10 +1,14 @@
 BarDemo
 FormsViewGroup
+Json.Net
+Newtonsoft.Json
 Plugin.CurrentActivity
 Plugin.Geolocator
 Plugin.Permissions
 SQLite.Net
 SQLite.Net.Platform.XamarinAndroid
+System.Net.Http.Extensions
+System.Net.Http.Primitives
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -14,6 +18,7 @@ Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
 Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
+Xamarin.Android.Support.CustomTabs
 Xamarin.Android.Support.Design
 Xamarin.Android.Support.Fragment
 Xamarin.Android.Support.Media.Compat

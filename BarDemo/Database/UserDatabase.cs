@@ -24,10 +24,10 @@ namespace BarDemo.Database
             return (from t in _connection.Table<User>() select t).ToList();
         }
 
-        public User GetUser(int id)
+        /*public User GetUser(int id)
         {
             return _connection.Table<User>().FirstOrDefault(t => t.ID == id);
-        }
+        }*/
 
         public void DeleteUser(int id)
         {

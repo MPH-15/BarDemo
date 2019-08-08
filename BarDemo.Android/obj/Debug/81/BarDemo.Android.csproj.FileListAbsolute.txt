@@ -62,6 +62,7 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\mscorlib.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Core.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.pdb
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Xml.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Xml.Linq.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
@@ -73,7 +74,6 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
-C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
@@ -102,4 +102,6 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\bin\Debug\netstandard2.0\BarDemo.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\bin\Debug\BarDemo.dll.mdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\BarDemo.dll.mdb

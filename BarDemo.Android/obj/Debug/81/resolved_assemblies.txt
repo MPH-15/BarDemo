@@ -2,8 +2,10 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\BarDemo.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Json.Net.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Plugin.Geolocator.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
@@ -11,6 +13,9 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Net.Http.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Net.Http.Extensions.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Net.Http.Primitives.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Xml.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -21,6 +26,7 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
@@ -49,7 +55,6 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
-C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Web.Services.dll
@@ -65,3 +70,5 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Threading.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Text.Encoding.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Mono.Security.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Runtime.InteropServices.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\System.Net.Primitives.dll

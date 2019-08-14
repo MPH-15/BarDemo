@@ -2,6 +2,11 @@
 using System.Linq;
 using Xamarin.Forms;
 using BarDemo.Models;
+using BarDemo.Services;
+using BarDemo.ViewModels;
+using System.Diagnostics;
+using System.Threading.Tasks;
+
 
 namespace BarDemo.Views
 {
@@ -10,6 +15,29 @@ namespace BarDemo.Views
         public SignUpPage()
         {
             InitializeComponent();
+        }
+
+        public async Task<User[]> PrintUser()
+        {
+            Uri bd_Server = new Uri("https://bardemo.azurewebsites.net");
+            var ds = new UserApiDataService(bd_Server);
+            var person = await ds.GetUserItems();
+
+            Debug.WriteLine("Count of Items is : " + person.Count());
+
+            for (int i = 0; i <= person.Count(); i++)
+            {
+                Debug.WriteLine("Id : " + person[i].ID);
+                Debug.WriteLine("Username: " + person[i].Username);
+                Debug.WriteLine("Password: " + person[i].Password);
+                Debug.WriteLine("email: " + person[i].Email);
+                Debug.WriteLine("First Name: " + person[i].FirstName);
+                Debug.WriteLine("Last Name: " + person[i].LastName);
+                Debug.WriteLine("Gender: " + person[i].Gender);
+                Debug.WriteLine("Age: " + person[i].Age);
+            }
+
+            return person;
         }
 
         async void OnSignUpButtonClicked(object sender, EventArgs e)
@@ -34,6 +62,15 @@ namespace BarDemo.Views
             var signUpSucceeded = AreDetailsValid(user);
             if (signUpSucceeded)
             {
+                Uri database = new Uri("https://bardemo.azurewebsites.net");
+                var db = new UserApiDataService(database);
+
+                db.AddEntryAsync(user);
+
+                PrintUser();
+
+
+
                 var rootPage = Navigation.NavigationStack.FirstOrDefault();
                 if (rootPage != null)
                 {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 
@@ -12,6 +13,10 @@ namespace BarDemo.Models
         public double Latitude { get; set; }
         public double Longitude { get; set; }
 
+        public static explicit operator Locations(Task<Locations[]> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

@@ -71,7 +71,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.4": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Json"
@@ -83,7 +83,7 @@
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.673156": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -206,10 +206,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.344457": {
+      "Xamarin.Forms.Maps/4.1.0.618606": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -228,9 +228,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.2",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Auth": "1.6.0.4",
-          "Xamarin.Forms": "3.6.0.344457",
-          "Xamarin.Forms.Maps": "3.6.0.344457"
+          "Xamarin.Auth": "1.7.0",
+          "Xamarin.Forms": "4.1.0.618606",
+          "Xamarin.Forms.Maps": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -310,7 +310,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.4": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Json"
@@ -322,7 +322,7 @@
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.673156": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -445,10 +445,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.344457": {
+      "Xamarin.Forms.Maps/4.1.0.618606": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -467,9 +467,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.2",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Auth": "1.6.0.4",
-          "Xamarin.Forms": "3.6.0.344457",
-          "Xamarin.Forms.Maps": "3.6.0.344457"
+          "Xamarin.Auth": "1.7.0",
+          "Xamarin.Forms": "4.1.0.618606",
+          "Xamarin.Forms.Maps": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -549,7 +549,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.4": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Json"
@@ -561,7 +561,7 @@
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.673156": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -684,10 +684,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.344457": {
+      "Xamarin.Forms.Maps/4.1.0.618606": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -706,9 +706,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.2",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Auth": "1.6.0.4",
-          "Xamarin.Forms": "3.6.0.344457",
-          "Xamarin.Forms.Maps": "3.6.0.344457"
+          "Xamarin.Auth": "1.7.0",
+          "Xamarin.Forms": "4.1.0.618606",
+          "Xamarin.Forms.Maps": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -788,7 +788,7 @@
           "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.4": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Json"
@@ -800,7 +800,7 @@
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.673156": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -923,10 +923,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.344457": {
+      "Xamarin.Forms.Maps/4.1.0.618606": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -945,9 +945,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.2",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Auth": "1.6.0.4",
-          "Xamarin.Forms": "3.6.0.344457",
-          "Xamarin.Forms.Maps": "3.6.0.344457"
+          "Xamarin.Auth": "1.7.0",
+          "Xamarin.Forms": "4.1.0.618606",
+          "Xamarin.Forms.Maps": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/BarDemo.dll": {}
@@ -960,10 +960,11 @@
   },
   "libraries": {
     "Json.Net/1.0.16": {
-      "sha512": "pHhXLlwtOy7RHFUbV/9NXhjU+vtgz7CCki5Sc3DCzCavfJxoJrLTBys5T7j2l1+RE6Pk1MfskkRzuFhl+jh5Lw==",
+      "sha512": "kFEw3EjjO1LN429+ltBm+bPGbG91VsDVRX0wPnq2KsAOYlwVVyRQTuDz3vE+wlVKu5SOSAQLsUxS5svnrkbPTQ==",
       "type": "package",
       "path": "json.net/1.0.16",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "json.net.1.0.16.nupkg.sha512",
         "json.net.nuspec",
@@ -971,10 +972,11 @@
       ]
     },
     "Microsoft.Bcl/1.1.10": {
-      "sha512": "Ne7S1fkpaKf0UJApAgpZOhYunvhzXEWseiuNNmMTtaG7bGULsAvMCSNjg9dKXwhheG5oTaTDToekokAkOrW44Q==",
+      "sha512": "+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
       "type": "package",
       "path": "microsoft.bcl/1.1.10",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "License-Stable.rtf",
         "lib/Xamarin.iOS10/_._",
@@ -1062,10 +1064,12 @@
       ]
     },
     "Microsoft.Bcl.Build/1.0.14": {
-      "sha512": "TVFi0klpPcvqtP98eOY61ULPBw3AFcwrnuMAAdkhbYubMkQa/THPJWSYXoDSY/7uh2oUDCn41Nd+3EpUNzbZpQ==",
+      "sha512": "cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
       "type": "package",
       "path": "microsoft.bcl.build/1.0.14",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "License-Stable.rtf",
         "content/net40/_._",
@@ -1082,10 +1086,11 @@
       ]
     },
     "Microsoft.Net.Http/2.2.29": {
-      "sha512": "v8nUdSv3acVH5xQ7dYKHjdPXRRtpAW8YCWHa7M1rAwhfnKg5tSop21spsMeExcEqwmE86pgT9rECTgObWlgOOg==",
+      "sha512": "fc4CPEewJ30Xgal+fSq1lYIBt582A7eKlAL7O4HXiYAiTp2VTnA4osSvk7T2n8aS4xTCPVJusQk3yKLT0XSpkg==",
       "type": "package",
       "path": "microsoft.net.http/2.2.29",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "License-Stable.rtf",
         "lib/Xamarin.iOS10/System.Net.Http.Extensions.XML",
@@ -1150,10 +1155,11 @@
       ]
     },
     "Newtonsoft.Json/12.0.2": {
-      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -1179,10 +1185,11 @@
       ]
     },
     "Plugin.Permissions/3.0.0.12": {
-      "sha512": "R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
+      "sha512": "VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
       "type": "package",
       "path": "plugin.permissions/3.0.0.12",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/Plugin.Permissions.dll",
         "lib/monoandroid71/Plugin.Permissions.xml",
@@ -1201,10 +1208,11 @@
       ]
     },
     "Xam.Plugin.Geolocator/4.5.0.6": {
-      "sha512": "rbWNjW7o14EtZa+yjPLujQg+PLVF6M490ooNx9QK/Z6El+uRA2EFut+lT/OAetWFzdPcv9LCs0YGOTvs9e7taQ==",
+      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
       "type": "package",
       "path": "xam.plugin.geolocator/4.5.0.6",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/Plugin.Geolocator.dll",
         "lib/monoandroid71/Plugin.Geolocator.xml",
@@ -1226,41 +1234,36 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
-    "Xamarin.Auth/1.6.0.4": {
-      "sha512": "Z29LQBGqx9+QOJNU9ZHjuQt4L4S4z0k51IzKI9J3UGsNOd1w7/SqBBHvkGs799ImcR0B4ft8HpzwBpvwHggmUA==",
+    "Xamarin.Auth/1.7.0": {
+      "sha512": "F5yMDdHmcBRochGOeeyIRJ2fangsCEodSbOwg4TQT5kJnsT/CjP6ieXbFfFF9ccni66EgbQ7NTTjvajUlD3IGQ==",
       "type": "package",
-      "path": "xamarin.auth/1.6.0.4",
+      "path": "xamarin.auth/1.7.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Xamarin.Auth.dll",
+        "lib/MonoAndroid10/Xamarin.Auth.pdb",
         "lib/Xamarin.iOS10/Xamarin.Auth.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.pdb",
         "lib/netstandard1.0/Xamarin.Auth.dll",
         "lib/netstandard1.6/Xamarin.Auth.dll",
-        "lib/portable-net45 wp8 wpa81 win8 MonoAndroid10 MonoTouch10 XamarinIOS10/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.pdb",
         "lib/uap10.0/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.pdb",
         "lib/uap10.0/Xamarin.Auth.pri",
         "lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xbf",
         "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
-        "lib/win81/Xamarin.Auth.dll",
-        "lib/win81/Xamarin.Auth.pri",
-        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xaml",
-        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xbf",
-        "lib/win81/Xamarin.Auth/Xamarin.Auth.xr.xml",
-        "lib/wp8/Xamarin.Auth.dll",
-        "lib/wpa81/Xamarin.Auth.dll",
-        "lib/wpa81/Xamarin.Auth.pri",
-        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xaml",
-        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xbf",
-        "lib/wpa81/Xamarin.Auth/Xamarin.Auth.xr.xml",
-        "xamarin.auth.1.6.0.4.nupkg.sha512",
+        "xamarin.auth.1.7.0.nupkg.sha512",
         "xamarin.auth.nuspec"
       ]
     },
-    "Xamarin.Forms/4.1.0.581479": {
-      "sha512": "/taLfNZ+9swpvuyGVgYN6aXXKH0iLBaraqH8o3bOwS0cw4mDjGgmd04UXh+rUBB/xHbMW6wT3dhg5RJmJSuisw==",
+    "Xamarin.Forms/4.1.0.673156": {
+      "sha512": "9NrnfD7kzGq/qjMOrdkTMxtZBOakwo5kEcay8Z6Iwv88bx11J/CDtDVJ0a5IPzfRwRq9XCcrMj3nu9DLQy6ZdA==",
       "type": "package",
-      "path": "xamarin.forms/4.1.0.581479",
+      "path": "xamarin.forms/4.1.0.673156",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -1497,15 +1500,16 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.1.0.581479.nupkg.sha512",
+        "xamarin.forms.4.1.0.673156.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.6.0.344457": {
-      "sha512": "sqBYD98ODUGjth6s1wOgapk5dBcYnXh9wjZk7gqfw4VRaPmmjHFQbOTRoSrzUDOeuumZntfEyEFR9Nnu3EESrg==",
+    "Xamarin.Forms.Maps/4.1.0.618606": {
+      "sha512": "mer3wNyRv7OUyfMyfC8ZLPoyL5girfGAZkrweO8kZIJjGPYZoGaX+26vm6lxKR2SiSmTpXA51bRgoGTyb3vs4A==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.6.0.344457",
+      "path": "xamarin.forms.maps/4.1.0.618606",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
         "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
@@ -1529,7 +1533,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.6.0.344457.nupkg.sha512",
+        "xamarin.forms.maps.4.1.0.618606.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -1542,7 +1546,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "BarDemo >= 1.0.0",
-      "Xamarin.Forms >= 4.1.0.581479"
+      "Xamarin.Forms >= 4.1.0.673156"
     ]
   },
   "packageFolders": {
@@ -1582,7 +1586,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.1.0.581479, )"
+            "version": "[4.1.0.673156, )"
           }
         }
       }

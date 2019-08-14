@@ -34,6 +34,18 @@ namespace BarDemo.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        bool _isBusy;
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set
+            {
+                _isBusy = value;
+                OnPropertyChanged();
+                OnIsBusyChanged();
+            }
+        }
+
         protected BaseViewModel()
         {
 
@@ -61,6 +73,10 @@ namespace BarDemo.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
 
+        }
+
+        protected virtual void OnIsBusyChanged()
+        {
         }
     }
 }

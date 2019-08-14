@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace BarDemo.Services
 {
@@ -56,6 +57,17 @@ namespace BarDemo.Services
                             if (response.IsSuccessStatusCode)
                             {
                                 result = JsonConvert.DeserializeObject<T>(content);
+                            }
+                            else
+                            {
+                                // Adding this part to handle case when there isn't a successful response
+                                
+                                Debug.WriteLine("----------");
+                                Debug.WriteLine("Unsuccessful HTTP Request");
+                                Debug.WriteLine("Status code : " + response.StatusCode);
+                                Debug.WriteLine("Headers : " + response.Headers);
+                                Debug.WriteLine("Reason Phrase : " + response.ReasonPhrase);
+                                Debug.WriteLine("----------");
                             }
                         }
 

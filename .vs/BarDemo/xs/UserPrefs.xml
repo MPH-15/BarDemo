@@ -1,34 +1,19 @@
 ﻿<Properties StartupConfiguration="{44F0BCFE-29E8-4540-8DAB-59C5DD57E306}|Default">
   <MonoDevelop.Ide.ItemProperties.BarDemo.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/ViewModels/SearchViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/Views/SignUpPage.xaml.cs">
     <Files>
       <File FileName="BarDemo/Views/SearchPage.xaml" Line="9" Column="63" />
-      <File FileName="BarDemo/Views/MapPage.xaml" />
-      <File FileName="BarDemo/Views/SearchPage.xaml.cs" />
-      <File FileName="BarDemo.iOS/Main.cs" />
-      <File FileName="BarDemo/ViewModels/SearchViewModel.cs" Line="52" Column="17" />
-      <File FileName="BarDemo/Models/Locations.cs" />
-      <File FileName="BarDemo/Views/MapPage.xaml.cs" />
-      <File FileName="BarDemo/Views/LoginPage.xaml" />
-      <File FileName="BarDemo/Views/ProfilePage.xaml" />
-      <File FileName="BarDemo/Views/SignUpPage.xaml" />
-      <File FileName="BarDemo/Views/TabPage.xaml" />
-      <File FileName="BarDemo/ViewModels/BaseViewModel.cs" />
-      <File FileName="BarDemo/Views/ProfilePage.xaml.cs" />
-      <File FileName="BarDemo/Views/TabPage.xaml.cs" />
-      <File FileName="BarDemo/Views/SignUpPage.xaml.cs" />
-      <File FileName="BarDemo/Views/LoginPage.xaml.cs" />
-      <File FileName="BarDemo/App.xaml.cs" />
-      <File FileName="BarDemo/Models/Constants.cs" />
-      <File FileName="BarDemo.iOS/AppDelegate.cs" />
-      <File FileName="BarDemo.Android/MainActivity.cs" />
-      <File FileName="BarDemo/Models/AuthenticationState.cs" />
-      <File FileName="BarDemo/Models/User.cs" />
-      <File FileName="BarDemo/ViewModels/ProfileViewModel.cs" />
-      <File FileName="BarDemo/Services/BaseHttpService.cs" />
-      <File FileName="BarDemo/Services/IDataService.cs" />
-      <File FileName="BarDemo/Services/DataService.cs" />
-      <File FileName="BarDemo/App.xaml" />
+      <File FileName="BarDemo/ViewModels/SearchViewModel.cs" Line="181" Column="14" />
+      <File FileName="BarDemo/Services/DataService.cs" Line="53" Column="55" />
+      <File FileName="BarDemo/Services/BaseHttpService.cs" Line="51" Column="1" />
+      <File FileName="BarDemo/Services/IDataService.cs" Line="1" Column="1" />
+      <File FileName="BarDemo.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="BarDemo.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="23" Column="27" />
+      <File FileName="BarDemo/Views/SearchPage.xaml.cs" Line="23" Column="6" />
+      <File FileName="BarDemo/Views/SignUpPage.xaml" Line="1" Column="1" />
+      <File FileName="BarDemo/Views/SignUpPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="BarDemo/Views/LoginPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -40,11 +25,9 @@
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="SearchViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="LoginPage.xaml" expanded="True" selected="True" />
                 <Node name="MapPage.xaml" expanded="True" />
                 <Node name="ProfilePage.xaml" expanded="True" />
                 <Node name="SearchPage.xaml" expanded="True" />
@@ -57,6 +40,9 @@
             <Node name="BarDemo.iOS" expanded="True" />
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

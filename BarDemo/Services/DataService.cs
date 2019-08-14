@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Diagnostics;
 using BarDemo.Models;
 
 namespace BarDemo.Services
@@ -32,6 +33,8 @@ namespace BarDemo.Services
             return response;
         }
 
+
+
         public async Task<User[]> GetUserItems()
         {
             var url = new Uri(_baseUri, "/Tables/User");
@@ -43,7 +46,15 @@ namespace BarDemo.Services
 
         public async Task<IList<Locations>> GetEntriesAsync()
         {
-            var url = new Uri(_baseUri, "/Tables/User");
+            var url = new Uri(_baseUri, "/Tables/Locations");
+            var response = await SendRequestAsync<Locations[]>(url, HttpMethod.Get, _headers);
+
+            return response;
+        }
+
+        public async Task<IList<Locations>> GetLocationsAsync()
+        {
+            var url = new Uri(_baseUri, "/Tables/Locations");
             var response = await SendRequestAsync<Locations[]>(url, HttpMethod.Get, _headers);
 
             return response;
@@ -75,8 +86,13 @@ namespace BarDemo.Services
 
         public async Task RemoveEntryAsync(Locations entry)
         {
-            var url = new Uri(_baseUri, string.Format("/Tables/Locations/{0}", entry.Id));
+            var url = new Uri(_baseUri, "/Tables/Locations/" + entry.Id);
+            Debug.WriteLine("******");
+            Debug.WriteLine("Deleting Entry with ID: " + entry.Id);
+            Debug.WriteLine("******");
             var response = await SendRequestAsync<Locations>(url, HttpMethod.Delete, _headers);
+            Debug.WriteLine(response.CityName);
+            Debug.WriteLine("*****");
             
         }
     }

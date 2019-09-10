@@ -47,16 +47,12 @@ namespace BarDemo.ViewModels
 
                 var userDataApi = new UserApiDataService(new Uri("https://BarDemo.azurewebsites.net/"));
 
-                //User getuser1 = await userDataApi.GetEntryAysnc("cefcf914-5aff-4143-b538-a42e6d38402d");
                 userEntries = await userDataApi.GetUserItems();
                 for (int i = 0; i < 2; i++)
                 {
                     Debug.WriteLine(userEntries[i].FirstName);
                 }
 
-
-                //var User1 = new User(user)
-                //Debug.WriteLine(getuser1.Age);
 
             }
 

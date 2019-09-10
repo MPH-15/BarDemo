@@ -21,6 +21,7 @@ namespace BarDemo
 
         public App()
         {
+
             InitializeComponent();
 
             if (!IsUserLoggedIn)

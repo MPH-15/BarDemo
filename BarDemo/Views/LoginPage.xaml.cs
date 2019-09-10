@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Linq;
 using Xamarin.Forms;
 using BarDemo.Models;
 using System.Diagnostics;
 using BarDemo.Services;
+using System.Threading.Tasks;
 
 namespace BarDemo.Views
 {
@@ -37,7 +39,10 @@ namespace BarDemo.Views
                 Password = passwordEntry.Text
             };
 
-            var isValid = AreCredentialsCorrect(user);
+            var userlist = await GetUsers();
+          
+            
+            var isValid = AreCredentialsCorrect(userlist, user);
             if (isValid)
             {
                 Debug.WriteLine("Login is Valid");
@@ -56,9 +61,46 @@ namespace BarDemo.Views
             }
         }
 
-        bool AreCredentialsCorrect(User user)
+        bool AreCredentialsCorrect(User[] users, User user)
         {
-            return user.Username == Constants.Username && user.Password == Constants.Password;
+            var ulist = users;
+            bool usercheck = false;
+            for (int i = 0; i <= ulist.Count() - 1; i++ )
+            {
+                Debug.WriteLine(ulist[i].Username);
+                Debug.WriteLine(ulist[i].Password);
+                if (ulist[i].Username == user.Username && ulist[i].Password == user.Password)
+                {
+                    usercheck = true;
+                }
+               
+            }
+            return usercheck;
+            //return user.Username == Constants.Username && user.Password == Constants.Password;
+        }
+
+        public async Task<User[]> GetUsers()
+        {
+            Uri bd_Server = new Uri("https://bardemo.azurewebsites.net");
+            var ds = new UserApiDataService(bd_Server);
+            var person = await ds.GetUserItems();
+
+            for (int i = 0; i <= person.Count() - 1; i++)
+            //{ }
+
+            {
+
+                Debug.WriteLine("Id : " + person[i].ID);
+                Debug.WriteLine("Username: " + person[i].Username);
+                Debug.WriteLine("Password: " + person[i].Password);
+                Debug.WriteLine("email: " + person[i].Email);
+                Debug.WriteLine("First Name: " + person[i].FirstName);
+                Debug.WriteLine("Last Name: " + person[i].LastName);
+                Debug.WriteLine("Gender: " + person[i].Gender);
+                Debug.WriteLine("Age: " + person[i].Age);
+            }
+
+            return person;
         }
     }
 }

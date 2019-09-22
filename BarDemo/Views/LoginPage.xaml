@@ -13,6 +13,7 @@
             <Entry x:Name="passwordEntry" IsPassword="true" />
             <Button Text="Login" Clicked="OnLoginButtonClicked" />
             <Label x:Name="messageLabel" />
+            <Button Text="FACEBOOK" Clicked="OnFBButtonClicked" />
         </StackLayout>
     </ContentPage.Content>
     </ContentPage>

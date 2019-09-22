@@ -16,6 +16,7 @@ namespace BarDemo.Views
     {
         public ProfilePage()
         {
+
             InitializeComponent();
 
 

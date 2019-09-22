@@ -28,6 +28,219 @@ namespace BarDemo.Droid
 		{
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::BarDemo.Droid.Resource.String.ApplicationName;
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::BarDemo.Droid.Resource.String.Hello;
+			global::Xamarin.Auth.Resource.Animation.slide_in_right = global::BarDemo.Droid.Resource.Animation.slide_in_right;
+			global::Xamarin.Auth.Resource.Animation.slide_out_left = global::BarDemo.Droid.Resource.Animation.slide_out_left;
+			global::Xamarin.Auth.Resource.Attribute.alpha = global::BarDemo.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Auth.Resource.Attribute.font = global::BarDemo.Droid.Resource.Attribute.font;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderAuthority = global::BarDemo.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderCerts = global::BarDemo.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderFetchStrategy = global::BarDemo.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderFetchTimeout = global::BarDemo.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderPackage = global::BarDemo.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderQuery = global::BarDemo.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Auth.Resource.Attribute.fontStyle = global::BarDemo.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Auth.Resource.Attribute.fontWeight = global::BarDemo.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Auth.Resource.Color.notification_action_color_filter = global::BarDemo.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Auth.Resource.Color.notification_icon_bg_color = global::BarDemo.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Auth.Resource.Color.ripple_material_light = global::BarDemo.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Auth.Resource.Color.secondary_text_default_material_light = global::BarDemo.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_inset_horizontal_material = global::BarDemo.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_inset_vertical_material = global::BarDemo.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_padding_horizontal_material = global::BarDemo.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_padding_vertical_material = global::BarDemo.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_control_corner_material = global::BarDemo.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Auth.Resource.Dimension.notification_action_icon_size = global::BarDemo.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_action_text_size = global::BarDemo.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_big_circle_margin = global::BarDemo.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Auth.Resource.Dimension.notification_content_margin_start = global::BarDemo.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Auth.Resource.Dimension.notification_large_icon_height = global::BarDemo.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Auth.Resource.Dimension.notification_large_icon_width = global::BarDemo.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Auth.Resource.Dimension.notification_main_column_padding_top = global::BarDemo.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Auth.Resource.Dimension.notification_media_narrow_margin = global::BarDemo.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Auth.Resource.Dimension.notification_right_icon_size = global::BarDemo.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_right_side_padding_top = global::BarDemo.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Auth.Resource.Dimension.notification_small_icon_background_padding = global::BarDemo.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Auth.Resource.Dimension.notification_small_icon_size_as_large = global::BarDemo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Auth.Resource.Dimension.notification_subtext_size = global::BarDemo.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_top_pad = global::BarDemo.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Auth.Resource.Dimension.notification_top_pad_large_text = global::BarDemo.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Auth.Resource.Drawable.ic_arrow_back = global::BarDemo.Droid.Resource.Drawable.ic_arrow_back;
+			global::Xamarin.Auth.Resource.Drawable.notification_action_background = global::BarDemo.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg = global::BarDemo.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low = global::BarDemo.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low_normal = global::BarDemo.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low_pressed = global::BarDemo.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_normal = global::BarDemo.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_normal_pressed = global::BarDemo.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Auth.Resource.Drawable.notification_icon_background = global::BarDemo.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Auth.Resource.Drawable.notification_template_icon_bg = global::BarDemo.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_template_icon_low_bg = global::BarDemo.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_tile_bg = global::BarDemo.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Auth.Resource.Drawable.notify_panel_notification_icon_bg = global::BarDemo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Auth.Resource.Id.action_container = global::BarDemo.Droid.Resource.Id.action_container;
+			global::Xamarin.Auth.Resource.Id.action_divider = global::BarDemo.Droid.Resource.Id.action_divider;
+			global::Xamarin.Auth.Resource.Id.action_image = global::BarDemo.Droid.Resource.Id.action_image;
+			global::Xamarin.Auth.Resource.Id.action_text = global::BarDemo.Droid.Resource.Id.action_text;
+			global::Xamarin.Auth.Resource.Id.actions = global::BarDemo.Droid.Resource.Id.actions;
+			global::Xamarin.Auth.Resource.Id.async = global::BarDemo.Droid.Resource.Id.async;
+			global::Xamarin.Auth.Resource.Id.blocking = global::BarDemo.Droid.Resource.Id.blocking;
+			global::Xamarin.Auth.Resource.Id.chronometer = global::BarDemo.Droid.Resource.Id.chronometer;
+			global::Xamarin.Auth.Resource.Id.forever = global::BarDemo.Droid.Resource.Id.forever;
+			global::Xamarin.Auth.Resource.Id.icon = global::BarDemo.Droid.Resource.Id.icon;
+			global::Xamarin.Auth.Resource.Id.icon_group = global::BarDemo.Droid.Resource.Id.icon_group;
+			global::Xamarin.Auth.Resource.Id.info = global::BarDemo.Droid.Resource.Id.info;
+			global::Xamarin.Auth.Resource.Id.italic = global::BarDemo.Droid.Resource.Id.italic;
+			global::Xamarin.Auth.Resource.Id.line1 = global::BarDemo.Droid.Resource.Id.line1;
+			global::Xamarin.Auth.Resource.Id.line3 = global::BarDemo.Droid.Resource.Id.line3;
+			global::Xamarin.Auth.Resource.Id.normal = global::BarDemo.Droid.Resource.Id.normal;
+			global::Xamarin.Auth.Resource.Id.notification_background = global::BarDemo.Droid.Resource.Id.notification_background;
+			global::Xamarin.Auth.Resource.Id.notification_main_column = global::BarDemo.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Auth.Resource.Id.notification_main_column_container = global::BarDemo.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Auth.Resource.Id.right_icon = global::BarDemo.Droid.Resource.Id.right_icon;
+			global::Xamarin.Auth.Resource.Id.right_side = global::BarDemo.Droid.Resource.Id.right_side;
+			global::Xamarin.Auth.Resource.Id.tag_transition_group = global::BarDemo.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Auth.Resource.Id.text = global::BarDemo.Droid.Resource.Id.text;
+			global::Xamarin.Auth.Resource.Id.text2 = global::BarDemo.Droid.Resource.Id.text2;
+			global::Xamarin.Auth.Resource.Id.time = global::BarDemo.Droid.Resource.Id.time;
+			global::Xamarin.Auth.Resource.Id.title = global::BarDemo.Droid.Resource.Id.title;
+			global::Xamarin.Auth.Resource.Id.webview = global::BarDemo.Droid.Resource.Id.webview;
+			global::Xamarin.Auth.Resource.Integer.status_bar_notification_info_maxnum = global::BarDemo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Auth.Resource.Layout.activity_webview = global::BarDemo.Droid.Resource.Layout.activity_webview;
+			global::Xamarin.Auth.Resource.Layout.notification_action = global::BarDemo.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Auth.Resource.Layout.notification_action_tombstone = global::BarDemo.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Auth.Resource.Layout.notification_template_custom_big = global::BarDemo.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Auth.Resource.Layout.notification_template_icon_group = global::BarDemo.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Auth.Resource.Layout.notification_template_part_chronometer = global::BarDemo.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Auth.Resource.Layout.notification_template_part_time = global::BarDemo.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Auth.Resource.String.status_bar_notification_info_overflow = global::BarDemo.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Auth.Resource.String.title_activity_webview = global::BarDemo.Droid.Resource.String.title_activity_webview;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Info = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Time = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Title = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Auth.Resource.Style.Widget_Compat_NotificationActionContainer = global::BarDemo.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Auth.Resource.Style.Widget_Compat_NotificationActionText = global::BarDemo.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem = global::BarDemo.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem_alpha = global::BarDemo.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem_android_alpha = global::BarDemo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem_android_color = global::BarDemo.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily = global::BarDemo.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderAuthority = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderCerts = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderPackage = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderQuery = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_font = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_font = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontStyle = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontWeight = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::BarDemo.Droid.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::BarDemo.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::BarDemo.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::BarDemo.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::BarDemo.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::BarDemo.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::BarDemo.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::BarDemo.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::BarDemo.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Boolean.abc_action_bar_embed_tabs = global::BarDemo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::BarDemo.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::BarDemo.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::BarDemo.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::BarDemo.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::BarDemo.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::BarDemo.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::BarDemo.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::BarDemo.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::BarDemo.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::BarDemo.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::BarDemo.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::BarDemo.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::BarDemo.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::BarDemo.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::BarDemo.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::BarDemo.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::BarDemo.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::BarDemo.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::BarDemo.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::BarDemo.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::BarDemo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::BarDemo.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::BarDemo.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::BarDemo.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::BarDemo.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::BarDemo.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::BarDemo.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::BarDemo.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::BarDemo.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::BarDemo.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::BarDemo.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::BarDemo.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::BarDemo.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::BarDemo.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::BarDemo.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::BarDemo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::BarDemo.Droid.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::BarDemo.Droid.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::BarDemo.Droid.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::BarDemo.Droid.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.actions = global::BarDemo.Droid.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.async = global::BarDemo.Droid.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::BarDemo.Droid.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::BarDemo.Droid.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.forever = global::BarDemo.Droid.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::BarDemo.Droid.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::BarDemo.Droid.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::BarDemo.Droid.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::BarDemo.Droid.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::BarDemo.Droid.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::BarDemo.Droid.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.normal = global::BarDemo.Droid.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::BarDemo.Droid.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::BarDemo.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::BarDemo.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::BarDemo.Droid.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::BarDemo.Droid.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::BarDemo.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.text = global::BarDemo.Droid.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::BarDemo.Droid.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::BarDemo.Droid.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::BarDemo.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::BarDemo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::BarDemo.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::BarDemo.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::BarDemo.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::BarDemo.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::BarDemo.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::BarDemo.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::BarDemo.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::BarDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::BarDemo.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::BarDemo.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::BarDemo.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::BarDemo.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::BarDemo.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::BarDemo.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::BarDemo.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::BarDemo.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::BarDemo.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2020,17 +2233,23 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
 			
-			// aapt resource value: 0x7F080018
-			public const int EnterFromLeft = 2131230744;
-			
-			// aapt resource value: 0x7F080019
-			public const int EnterFromRight = 2131230745;
-			
 			// aapt resource value: 0x7F080020
-			public const int ExitToLeft = 2131230752;
+			public const int EnterFromLeft = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int ExitToRight = 2131230753;
+			public const int EnterFromRight = 2131230753;
+			
+			// aapt resource value: 0x7F080022
+			public const int ExitToLeft = 2131230754;
+			
+			// aapt resource value: 0x7F080023
+			public const int ExitToRight = 2131230755;
+			
+			// aapt resource value: 0x7F080018
+			public const int slide_in_right = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int slide_out_left = 2131230745;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -2317,8 +2536,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F100376
-			public const int buttonSize = 2131755894;
+			// aapt resource value: 0x7F110376
+			public const int buttonSize = 2131821430;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -2479,8 +2698,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F100375
-			public const int circleCrop = 2131755893;
+			// aapt resource value: 0x7F110375
+			public const int circleCrop = 2131821429;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -2530,8 +2749,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F100377
-			public const int colorScheme = 2131755895;
+			// aapt resource value: 0x7F110377
+			public const int colorScheme = 2131821431;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -2806,11 +3025,11 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F100374
-			public const int imageAspectRatio = 2131755892;
+			// aapt resource value: 0x7F110374
+			public const int imageAspectRatio = 2131821428;
 			
-			// aapt resource value: 0x7F100373
-			public const int imageAspectRatioAdjust = 2131755891;
+			// aapt resource value: 0x7F110373
+			public const int imageAspectRatioAdjust = 2131821427;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -3133,8 +3352,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F100378
-			public const int scopeUris = 2131755896;
+			// aapt resource value: 0x7F110378
+			public const int scopeUris = 2131821432;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -5060,62 +5279,62 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 0x7F090319
-			public const int common_full_open_on_phone = 2131297049;
-			
-			// aapt resource value: 0x7F090305
-			public const int common_google_signin_btn_icon_dark = 2131297029;
+			// aapt resource value: 0x7F090320
+			public const int common_full_open_on_phone = 2131297056;
 			
 			// aapt resource value: 0x7F090306
-			public const int common_google_signin_btn_icon_dark_focused = 2131297030;
+			public const int common_google_signin_btn_icon_dark = 2131297030;
 			
 			// aapt resource value: 0x7F090307
-			public const int common_google_signin_btn_icon_dark_normal = 2131297031;
-			
-			// aapt resource value: 0x7F090320
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131297056;
+			public const int common_google_signin_btn_icon_dark_focused = 2131297031;
 			
 			// aapt resource value: 0x7F090308
-			public const int common_google_signin_btn_icon_disabled = 2131297032;
-			
-			// aapt resource value: 0x7F090309
-			public const int common_google_signin_btn_icon_light = 2131297033;
-			
-			// aapt resource value: 0x7F090310
-			public const int common_google_signin_btn_icon_light_focused = 2131297040;
-			
-			// aapt resource value: 0x7F090311
-			public const int common_google_signin_btn_icon_light_normal = 2131297041;
+			public const int common_google_signin_btn_icon_dark_normal = 2131297032;
 			
 			// aapt resource value: 0x7F090321
-			public const int common_google_signin_btn_icon_light_normal_background = 2131297057;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131297057;
+			
+			// aapt resource value: 0x7F090309
+			public const int common_google_signin_btn_icon_disabled = 2131297033;
+			
+			// aapt resource value: 0x7F090310
+			public const int common_google_signin_btn_icon_light = 2131297040;
+			
+			// aapt resource value: 0x7F090311
+			public const int common_google_signin_btn_icon_light_focused = 2131297041;
 			
 			// aapt resource value: 0x7F090312
-			public const int common_google_signin_btn_text_dark = 2131297042;
-			
-			// aapt resource value: 0x7F090313
-			public const int common_google_signin_btn_text_dark_focused = 2131297043;
-			
-			// aapt resource value: 0x7F090314
-			public const int common_google_signin_btn_text_dark_normal = 2131297044;
+			public const int common_google_signin_btn_icon_light_normal = 2131297042;
 			
 			// aapt resource value: 0x7F090322
-			public const int common_google_signin_btn_text_dark_normal_background = 2131297058;
+			public const int common_google_signin_btn_icon_light_normal_background = 2131297058;
+			
+			// aapt resource value: 0x7F090313
+			public const int common_google_signin_btn_text_dark = 2131297043;
+			
+			// aapt resource value: 0x7F090314
+			public const int common_google_signin_btn_text_dark_focused = 2131297044;
 			
 			// aapt resource value: 0x7F090315
-			public const int common_google_signin_btn_text_disabled = 2131297045;
-			
-			// aapt resource value: 0x7F090316
-			public const int common_google_signin_btn_text_light = 2131297046;
-			
-			// aapt resource value: 0x7F090317
-			public const int common_google_signin_btn_text_light_focused = 2131297047;
-			
-			// aapt resource value: 0x7F090318
-			public const int common_google_signin_btn_text_light_normal = 2131297048;
+			public const int common_google_signin_btn_text_dark_normal = 2131297045;
 			
 			// aapt resource value: 0x7F090323
-			public const int common_google_signin_btn_text_light_normal_background = 2131297059;
+			public const int common_google_signin_btn_text_dark_normal_background = 2131297059;
+			
+			// aapt resource value: 0x7F090316
+			public const int common_google_signin_btn_text_disabled = 2131297046;
+			
+			// aapt resource value: 0x7F090317
+			public const int common_google_signin_btn_text_light = 2131297047;
+			
+			// aapt resource value: 0x7F090318
+			public const int common_google_signin_btn_text_light_focused = 2131297048;
+			
+			// aapt resource value: 0x7F090319
+			public const int common_google_signin_btn_text_light_normal = 2131297049;
+			
+			// aapt resource value: 0x7F090324
+			public const int common_google_signin_btn_text_light_normal_background = 2131297060;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -5135,11 +5354,14 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F090324
-			public const int googleg_disabled_color_18 = 2131297060;
-			
 			// aapt resource value: 0x7F090325
-			public const int googleg_standard_color_18 = 2131297061;
+			public const int googleg_disabled_color_18 = 2131297061;
+			
+			// aapt resource value: 0x7F090326
+			public const int googleg_standard_color_18 = 2131297062;
+			
+			// aapt resource value: 0x7F090305
+			public const int ic_arrow_back = 2131297029;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -6000,11 +6222,11 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F010187
-			public const int adjust_height = 2130772359;
+			// aapt resource value: 0x7F010188
+			public const int adjust_height = 2130772360;
 			
-			// aapt resource value: 0x7F010186
-			public const int adjust_width = 2130772358;
+			// aapt resource value: 0x7F010187
+			public const int adjust_width = 2130772359;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -6033,11 +6255,11 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F010193
-			public const int APP_NAME = 2130772371;
+			// aapt resource value: 0x7F010194
+			public const int APP_NAME = 2130772372;
 			
-			// aapt resource value: 0x7F010185
-			public const int app_name = 2130772357;
+			// aapt resource value: 0x7F010186
+			public const int app_name = 2130772358;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -6066,11 +6288,11 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F010174
-			public const int bottomtab.navarea = 2130772340;
-			
 			// aapt resource value: 0x7F010175
-			public const int bottomtab.tabbar = 2130772341;
+			public const int bottomtab.navarea = 2130772341;
+			
+			// aapt resource value: 0x7F010176
+			public const int bottomtab.tabbar = 2130772342;
 			
 			// aapt resource value: 0x1
 			public const int button = 1;
@@ -6189,8 +6411,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F010191
-			public const int dark = 2130772369;
+			// aapt resource value: 0x7F010192
+			public const int dark = 2130772370;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -6258,11 +6480,11 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F010176
-			public const int flyoutcontent_appbar = 2130772342;
-			
 			// aapt resource value: 0x7F010177
-			public const int flyoutcontent_recycler = 2130772343;
+			public const int flyoutcontent_appbar = 2130772343;
+			
+			// aapt resource value: 0x7F010178
+			public const int flyoutcontent_recycler = 2130772344;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -6303,8 +6525,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F010190
-			public const int icon_only = 2130772368;
+			// aapt resource value: 0x7F010191
+			public const int icon_only = 2130772369;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -6366,8 +6588,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F010192
-			public const int light = 2130772370;
+			// aapt resource value: 0x7F010193
+			public const int light = 2130772371;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -6393,17 +6615,17 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x1
 			public const int logo_only = 1;
 			
-			// aapt resource value: 0x7F010178
-			public const int main.appbar = 2130772344;
+			// aapt resource value: 0x7F010179
+			public const int main.appbar = 2130772345;
+			
+			// aapt resource value: 0x7F010182
+			public const int main.scrollview = 2130772354;
 			
 			// aapt resource value: 0x7F010181
-			public const int main.scrollview = 2130772353;
+			public const int main.tablayout = 2130772353;
 			
 			// aapt resource value: 0x7F010180
-			public const int main.tablayout = 2130772352;
-			
-			// aapt resource value: 0x7F010179
-			public const int main.toolbar = 2130772345;
+			public const int main.toolbar = 2130772352;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -6669,14 +6891,14 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F010182
-			public const int shellcontent.appbar = 2130772354;
+			// aapt resource value: 0x7F010183
+			public const int shellcontent.appbar = 2130772355;
+			
+			// aapt resource value: 0x7F010185
+			public const int shellcontent.scrollview = 2130772357;
 			
 			// aapt resource value: 0x7F010184
-			public const int shellcontent.scrollview = 2130772356;
-			
-			// aapt resource value: 0x7F010183
-			public const int shellcontent.toolbar = 2130772355;
+			public const int shellcontent.toolbar = 2130772356;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
@@ -6711,8 +6933,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F010188
-			public const int standard = 2130772360;
+			// aapt resource value: 0x7F010189
+			public const int standard = 2130772361;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -6846,8 +7068,11 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
 			
-			// aapt resource value: 0x7F010189
-			public const int wide = 2130772361;
+			// aapt resource value: 0x7F010174
+			public const int webview = 2130772340;
+			
+			// aapt resource value: 0x7F010190
+			public const int wide = 2130772368;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -7021,7 +7246,10 @@ namespace BarDemo.Droid
 			public const int abc_select_dialog_material = 2131689498;
 			
 			// aapt resource value: 0x7F020070
-			public const int BottomTabLayout = 2130837616;
+			public const int activity_webview = 2130837616;
+			
+			// aapt resource value: 0x7F020071
+			public const int BottomTabLayout = 2130837617;
 			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_activity = 1;
@@ -7083,8 +7311,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F020071
-			public const int FlyoutContent = 2130837617;
+			// aapt resource value: 0x7F020072
+			public const int FlyoutContent = 2130837618;
 			
 			// aapt resource value: 0x1
 			public const int libraries_social_licenses_license = 1;
@@ -7173,8 +7401,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x1
 			public const int place_autocomplete_progress = 1;
 			
-			// aapt resource value: 0x7F020072
-			public const int RootLayout = 2130837618;
+			// aapt resource value: 0x7F020073
+			public const int RootLayout = 2130837619;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -7185,8 +7413,8 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F020073
-			public const int ShellContent = 2130837619;
+			// aapt resource value: 0x7F020074
+			public const int ShellContent = 2130837620;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -7473,56 +7701,56 @@ namespace BarDemo.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F060064
-			public const int common_google_play_services_enable_button = 2131099748;
-			
 			// aapt resource value: 0x7F060065
-			public const int common_google_play_services_enable_text = 2131099749;
+			public const int common_google_play_services_enable_button = 2131099749;
 			
 			// aapt resource value: 0x7F060066
-			public const int common_google_play_services_enable_title = 2131099750;
+			public const int common_google_play_services_enable_text = 2131099750;
 			
 			// aapt resource value: 0x7F060067
-			public const int common_google_play_services_install_button = 2131099751;
+			public const int common_google_play_services_enable_title = 2131099751;
 			
 			// aapt resource value: 0x7F060068
-			public const int common_google_play_services_install_text = 2131099752;
+			public const int common_google_play_services_install_button = 2131099752;
 			
 			// aapt resource value: 0x7F060069
-			public const int common_google_play_services_install_title = 2131099753;
+			public const int common_google_play_services_install_text = 2131099753;
 			
 			// aapt resource value: 0x7F060070
-			public const int common_google_play_services_notification_ticker = 2131099760;
+			public const int common_google_play_services_install_title = 2131099760;
+			
+			// aapt resource value: 0x7F060071
+			public const int common_google_play_services_notification_ticker = 2131099761;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F060071
-			public const int common_google_play_services_unsupported_text = 2131099761;
-			
 			// aapt resource value: 0x7F060072
-			public const int common_google_play_services_update_button = 2131099762;
+			public const int common_google_play_services_unsupported_text = 2131099762;
 			
 			// aapt resource value: 0x7F060073
-			public const int common_google_play_services_update_text = 2131099763;
+			public const int common_google_play_services_update_button = 2131099763;
 			
 			// aapt resource value: 0x7F060074
-			public const int common_google_play_services_update_title = 2131099764;
+			public const int common_google_play_services_update_text = 2131099764;
 			
 			// aapt resource value: 0x7F060075
-			public const int common_google_play_services_updating_text = 2131099765;
+			public const int common_google_play_services_update_title = 2131099765;
 			
 			// aapt resource value: 0x7F060076
-			public const int common_google_play_services_wear_update_text = 2131099766;
+			public const int common_google_play_services_updating_text = 2131099766;
 			
 			// aapt resource value: 0x7F060077
-			public const int common_open_on_phone = 2131099767;
+			public const int common_google_play_services_wear_update_text = 2131099767;
 			
 			// aapt resource value: 0x7F060078
-			public const int common_signin_button_text = 2131099768;
+			public const int common_open_on_phone = 2131099768;
 			
 			// aapt resource value: 0x7F060079
-			public const int common_signin_button_text_long = 2131099769;
+			public const int common_signin_button_text = 2131099769;
+			
+			// aapt resource value: 0x7F060080
+			public const int common_signin_button_text_long = 2131099776;
 			
 			// aapt resource value: 0x1
 			public const int fcm_fallback_notification_channel_label = 1;
@@ -7661,6 +7889,9 @@ namespace BarDemo.Droid
 			
 			// aapt resource value: 0x1
 			public const int tagmanager_preview_dialog_title = 1;
+			
+			// aapt resource value: 0x7F060064
+			public const int title_activity_webview = 2131099748;
 			
 			// aapt resource value: 0x1
 			public const int wallet_buy_button_place_holder = 1;
@@ -11595,6 +11826,22 @@ namespace BarDemo.Droid
 			}
 			
 			private Styleable()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F100002
+			public const int xamarin_essentials_fileprovider_file_paths = 2131755010;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

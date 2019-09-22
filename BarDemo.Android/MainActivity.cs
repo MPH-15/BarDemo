@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Plugin.CurrentActivity;
+using BarDemo.Views;
 
 namespace BarDemo.Droid
 {
@@ -20,6 +21,9 @@ namespace BarDemo.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            global::Xamarin.Auth.Presenters.XamarinAndroid.AuthenticationConfiguration.Init(this, savedInstanceState);
+            global::Xamarin.Auth.CustomTabsConfiguration.CustomTabsClosingMessage = null;
+            //global::Android.Content.Intent ui_object = auth.GetUI(this);
             LoadApplication(new App());
             //added
             CrossCurrentActivity.Current.Init(this, savedInstanceState);

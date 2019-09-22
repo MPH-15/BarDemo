@@ -40,15 +40,6 @@ namespace BarDemo.Services
             return response;
         }
 
-        //public async Task<User[]> GetEntriesAsync()
-        //{
-        //    var url = new Uri(_baseUri, "/tables/user");
-        //    var response = await SendRequestAsync<User[]>(url, HttpMethod.Get, _headers);
-
-        //    return response;
-
-        //}
-
         public async Task<User[]> GetUserItems()
         {
             var url = new Uri(_baseUri, "/Tables/User");

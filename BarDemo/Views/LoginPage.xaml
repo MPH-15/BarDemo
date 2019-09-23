@@ -3,17 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="BarDemo.Views.LoginPage" Title="Login">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+        <ToolbarItem Text="Sign Up" Command="{Binding OnSignUpButtonClickedCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout VerticalOptions="StartAndExpand">
             <Label Text="Username" />
-            <Entry x:Name="usernameEntry" Placeholder="username" />
+            <Entry Text="{Binding UsernameEntry , Mode=TwoWay}" Placeholder="username" />
+            <!--<Entry x:Name="{Binding usernameEntry}" Placeholder="username" />-->
             <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Button Text="Login" Clicked="OnLoginButtonClicked" />
+            <Entry Text="{Binding PasswordEntry , Mode=TwoWay}" Placeholder="password" IsPassword="True" />
+            <!--<Entry x:Name="{Binding  passwordEntry}" IsPassword="true" />-->
+            <Button Text="Login" Command="{Binding OnLoginButtonClickedCommand}" />
             <Label x:Name="messageLabel" />
-            <Button Text="FACEBOOK" Clicked="OnFBButtonClicked" />
+            <Button Text="FACEBOOK" Command="{Binding OnFBButtonClickedCommand}" />
         </StackLayout>
     </ContentPage.Content>
     </ContentPage>

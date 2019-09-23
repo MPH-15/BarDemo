@@ -9,20 +9,17 @@ using BarDemo.Services;
 using System.Collections.Generic;
 
 
-
-
 namespace BarDemo.ViewModels
 {
     public class SearchViewModel : BaseViewModel
     {
-
         /*
          * The 'ObservableCollection' Class represents a dynamic data collection 
          * that provides notifications when items get added, removed, 
          * or when the whole list is refreshed.
          */
 
-        readonly IDataService _dataService;
+        //readonly IDataService _dataService;
 
         ObservableCollection<Locations> _cityEntries;
         public ObservableCollection<Locations> CityEntries
@@ -49,7 +46,7 @@ namespace BarDemo.ViewModels
 
         /*
          * No longer hard coding the CityEntires as shown below. Now loading
-         * from Azure Database with GetLocations() method above. 
+         * from Azure Database with GetLocations() method. 
          */
             //CityEntries.Add(new Locations
             //{
@@ -119,14 +116,6 @@ namespace BarDemo.ViewModels
 
             for (int i = 0; i <= places.Count(); i++)
             {
-                //Debug.WriteLine("***********");
-                //Debug.WriteLine("Count of Items is {0}: ", places.Count());
-                //Debug.WriteLine("Id: " + places[i].Id);
-                //Debug.WriteLine("City Name: " + places[i].CityName);
-                //Debug.WriteLine("Lattitude: " + places[i].Latitude);
-                //Debug.WriteLine("Longitude: " + places[i].Longitude);
-                //Debug.WriteLine("***********");
-
                 CityEntries.Add(new Locations
                 {
                     Id = places[i].Id,
@@ -134,7 +123,6 @@ namespace BarDemo.ViewModels
                     Latitude = places[i].Latitude,
                     Longitude = places[i].Longitude
                 });
-
             }
 
 

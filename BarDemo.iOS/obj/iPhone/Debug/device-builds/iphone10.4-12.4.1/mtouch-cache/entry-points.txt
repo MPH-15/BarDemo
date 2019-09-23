@@ -1,0 +1,55 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhone/Debug/device-builds/iphone10.4-12.4.1/mtouch-cache/1-Link/System.dll
+Function=mono_pmip

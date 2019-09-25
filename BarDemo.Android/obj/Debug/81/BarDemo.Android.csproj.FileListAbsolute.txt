@@ -114,5 +114,7 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\bin\Debug\netstandard2.0\BarDemo.dll
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\bin\Debug\BarDemo.dll.mdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\BarDemo.dll.mdb
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo.Android\obj\Debug\81\linksrc\Xamarin.Auth.dll.mdb

@@ -14,8 +14,8 @@ namespace BarDemo
 
         public static double ScreenHeight;
         public static double ScreenWidth;
-        public static User CurrentUser;
-
+       // public static User CurrentUser;
+        
 
         public static bool IsUserLoggedIn { get; set; }
 

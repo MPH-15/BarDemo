@@ -18,6 +18,7 @@ namespace BarDemo.Views
         {
 
             InitializeComponent();
+            BindingContext = new ProfileViewModel();
 
 
         /*async void Testapi()

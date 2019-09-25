@@ -34,7 +34,6 @@
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\bin\Debug\netstandard2.0\BarDemo.deps.json
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\bin\Debug\netstandard2.0\BarDemo.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\bin\Debug\netstandard2.0\BarDemo.pdb
-C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.csprojAssemblyReference.cache
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs
@@ -48,3 +47,4 @@ C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarD
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.dll
 C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.pdb
+C:\Users\Mark\source\repos\BarDemo\BarDemo\BarDemo\obj\Debug\netstandard2.0\BarDemo.csprojAssemblyReference.cache

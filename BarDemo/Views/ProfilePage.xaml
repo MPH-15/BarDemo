@@ -25,9 +25,22 @@
                     <TableView HasUnevenRows="True">
                         <TableView.Root >
                             <TableSection Title="Bio" TextColor="Black" >
-                                <EntryCell Label="Username:" Text="{Binding Username}" Placeholder="Enter Name"></EntryCell>
-                                <EntryCell Label="Age:" Text="30"></EntryCell>
-                                <EntryCell Label="Interests:" Text="Programming"></EntryCell>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Username: "></Label>
+                                        <Label Text="{Binding Username}"></Label>
+                                    </StackLayout>
+                                </ViewCell>
+                                <!--<EntryCell Label="Username:" Text="{Binding Username}" Placeholder="Enter Name"></EntryCell>-->
+                                <!--<EntryCell Label="Age:" Text="30"></EntryCell>
+                                <EntryCell Label="Interests:" Text="Programming"></EntryCell>-->
+                                <!--<EntryCell Label="Gender:" Text="{Binding Gender}"></EntryCell>-->
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Gender: "></Label>
+                                        <Label Text="{Binding Gender}"></Label>
+                                    </StackLayout>
+                                </ViewCell>
                             </TableSection>
                         </TableView.Root>
                     </TableView>

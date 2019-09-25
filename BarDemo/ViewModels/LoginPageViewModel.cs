@@ -19,6 +19,8 @@ namespace BarDemo.ViewModels
     public class LoginPageViewModel : BaseViewModel
     {
         OAuth2Authenticator auth;
+        public static User currentUser;
+   
 
         private string usernameEntry;
         public string UsernameEntry
@@ -59,8 +61,7 @@ namespace BarDemo.ViewModels
             auth = new OAuth2Authenticator
             (
             clientId: "421753182028932",
-            scope: "email",
-            //clientSecret: "20f604530f66acf1e76e5965b2769236",
+            scope: "email, user_gender, user_age_range",
             authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
             redirectUrl: new Uri("https://bardemo.azurewebsites.net/.auth/login/facebook/callback "),
             // switch for new Native UI API
@@ -69,13 +70,13 @@ namespace BarDemo.ViewModels
             //  default = false  (not using NEW native UI)
             //getUsernameAsync: null,
             isUsingNativeUI: false);
-
+            
             auth.Completed += Auth_Completed;
             //auth.Error += Auth_Error;
             var presenter = new Xamarin.Auth.Presenters.OAuthLoginPresenter();
             presenter.Login(auth);
 
-            //var ui = auth.GetUI();
+           
 
         }
 
@@ -95,18 +96,25 @@ namespace BarDemo.ViewModels
                 }
 
                 string email = string.Empty;
-                email = await ProviderService.GetFacebookEmailAsync();
-                Debug.WriteLine(email);
+                //email = await ProviderService.GetFacebookEmailAsync();
+                //Debug.WriteLine(email);
                 var request = new OAuth2Request(
                     "GET",
-                    new Uri("https://graph.facebook.com/me?=name"),
+                    new Uri("https://graph.facebook.com/me?fields=name,gender,age_range"),
                     null,
                     e.Account);
                 var fbResponse = await request.GetResponseAsync();
                 var fbUser = JsonValue.Parse(fbResponse.GetResponseText());
                 var name = fbUser["name"];
-
+                
+                var gender = fbUser["gender"];
+                //var age_range = fbUser["age_range"];
+                //Debug.WriteLine(age_range);
                 Debug.WriteLine(name);
+                Debug.WriteLine(gender);
+                currentUser = new User();
+                currentUser.FirstName = name;
+                currentUser.Gender = gender;
 
                 await Application.Current.MainPage.Navigation.PushAsync(new TabPage());
             }
@@ -187,24 +195,6 @@ namespace BarDemo.ViewModels
             return usercheck;
             //return user.Username == Constants.Username && user.Password == Constants.Password;
         }
-
-        //bool AreCredentialsCorrect(User user)
-        //{
-
-        //    bool usercheck = false;
-        //    for (int i = 0; i <= ulist.Count() - 1; i++)
-        //    {
-        //        Debug.WriteLine(ulist[i].Username);
-        //        Debug.WriteLine(ulist[i].Password);
-        //        if (ulist[i].Username == user.Username && ulist[i].Password == user.Password)
-        //        {
-        //            usercheck = true;
-        //        }
-
-        //    }
-        //    return usercheck;
-        //    //return user.Username == Constants.Username && user.Password == Constants.Password;
-        //}
 
         public static class ProviderService
         {

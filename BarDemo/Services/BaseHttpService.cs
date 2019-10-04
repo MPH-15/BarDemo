@@ -57,6 +57,7 @@ namespace BarDemo.Services
                             if (response.IsSuccessStatusCode)
                             {
                                 result = JsonConvert.DeserializeObject<T>(content);
+                                
                             }
                             else
                             {
@@ -76,5 +77,7 @@ namespace BarDemo.Services
                 }
             }
         }
+
+
     }
 }

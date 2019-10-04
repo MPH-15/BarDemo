@@ -28,7 +28,7 @@ namespace BarDemo.Services
         public async Task<Locations[]> GetItems()
         {
             var url = new Uri(_baseUri, "/Tables/Locations");
-            Locations[] response = await SendRequestAsync<Locations[]>(url, HttpMethod.Get, _headers);
+            Locations[] response = await SendRequestAsync<Locations[]>(url, HttpMethod.Get, _headers, null);
 
             return response;
         }

@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:local="clr-namespace:BarDemo.Models;assembly=BarDemo"
+             xmlns:local1="clr-namespace:BarDemo"
              x:Class="BarDemo.Views.MapPage"
              Title="Spots"
              Icon="shaker.png">
     <ContentPage.Content>
-            <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="4*" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="1*" />
-            </Grid.RowDefinitions>
-            <maps:Map x:Name="map" Grid.RowSpan="3" />
-        </Grid>
+        <local:CustomMap x:Name="customMap" MapType="Street"
+                         WidthRequest="{x:Static local1:App.ScreenWidth}"
+                         HeightRequest="{x:Static local1:App.ScreenHeight}" />
     </ContentPage.Content>
 </ContentPage>

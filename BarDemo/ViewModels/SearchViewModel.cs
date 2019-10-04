@@ -35,19 +35,20 @@ namespace BarDemo.ViewModels
 
         public SearchViewModel()
         {
-        // The following will add a location, but you will not be able to see it when loading.
-        // Need to implement a pull to refresh to load the new items. 
-        // AddLocation();
-           
+            // The following will add a location, but you will not be able to see it when loading.
+            // Need to implement a pull to refresh to load the new items. 
+            // AddLocation();
+
             CityEntries = new ObservableCollection<Locations>();
 
             GetLocations();
 
+            GetYelpBiz();
 
-        /*
-         * No longer hard coding the CityEntires as shown below. Now loading
-         * from Azure Database with GetLocations() method. 
-         */
+            /*
+             * No longer hard coding the CityEntires as shown below. Now loading
+             * from Azure Database with GetLocations() method. 
+             */
             //CityEntries.Add(new Locations
             //{
             //    CityName = "San Antonio",
@@ -71,11 +72,11 @@ namespace BarDemo.ViewModels
 
 
 
-////////////////////////////
-///////// The Code below was used to test functionality.
-////////
+            ////////////////////////////
+            ///////// The Code below was used to test functionality.
+            ////////
 
-           // PrintUser();
+            // PrintUser();
             ///////69e0129e - f6d0 - 4330 - b4a7 - 3fab61a68b53
             //Locations test_location = new Locations
             //{
@@ -125,10 +126,22 @@ namespace BarDemo.ViewModels
                 });
             }
 
-
             return places;
         }
 
+        public async Task<YelpBizSearch> GetYelpBiz()
+        {
+            Uri yelp_server = new Uri("https://api.yelp.com/v3/");
+            var y_ds = new YelpDataService(yelp_server);
+
+            var y_places = await y_ds.BusinessSearch();
+            Debug.WriteLine("******* Printing Yelp Info   ***********");
+            Debug.WriteLine("Total = " + y_places.total);
+            Debug.WriteLine("Businesses = " + y_places.businesses[0].name);
+ 
+
+            return y_places;
+        }
 
 
         public async Task<User[]> PrintUser()

@@ -1,45 +1,40 @@
 ﻿<Properties StartupConfiguration="{44F0BCFE-29E8-4540-8DAB-59C5DD57E306}|Default">
   <MonoDevelop.Ide.ItemProperties.BarDemo.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/ViewModels/SearchViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/ViewModels/LoginViewModel.cs">
     <Files>
-      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="204" Column="22" />
-      <File FileName="BarDemo/Models/Constants.cs" Line="55" Column="50" />
-      <File FileName="BarDemo.iOS/Main.cs" />
-      <File FileName="BarDemo/Models/User.cs" />
-      <File FileName="BarDemo/Views/ProfilePage.xaml.cs" />
-      <File FileName="BarDemo/Views/ProfilePage.xaml" />
-      <File FileName="BarDemo/ViewModels/SearchViewModel.cs" Line="59" Column="16" />
-      <File FileName="BarDemo/ViewModels/ProfileViewModel.cs" />
-      <File FileName="BarDemo/Views/SearchPage.xaml.cs" />
-      <File FileName="BarDemo/Views/SearchPage.xaml" />
-      <File FileName="BarDemo/Models/GUser.cs" />
-      <File FileName="BarDemo/Models/Locations.cs" />
-      <File FileName="BarDemo/Models/FBUser.cs" />
-      <File FileName="BarDemo/Views/LoginPage.xaml" />
-      <File FileName="BarDemo/Views/MapPage.xaml.cs" />
-      <File FileName="BarDemo/Views/SignUpPage.xaml.cs" />
-      <File FileName="BarDemo/Services/DataService.cs" Line="1" Column="1" />
+      <File FileName="BarDemo/Views/LoginPage.xaml" Line="19" Column="83" />
+      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="140" Column="1" />
+      <File FileName="BarDemo/ViewModels/LoginViewModel.cs" Line="154" Column="88" />
+      <File FileName="BarDemo/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="BarDemo/Services/BaseHttpService.cs" Line="13" Column="30" />
+      <File FileName="BarDemo/Services/DataService.cs" Line="31" Column="51" />
+      <File FileName="BarDemo/Services/YelpDataService.cs" Line="29" Column="49" />
+      <File FileName="BarDemo/ViewModels/SearchViewModel.cs" Line="142" Column="1" />
+      <File FileName="BarDemo/Models/YelpBizSearch.cs" Line="11" Column="18" />
+      <File FileName="BarDemo/Models/FBUser.cs" Line="6" Column="13" />
+      <File FileName="BarDemo/Models/User.cs" Line="8" Column="13" />
+      <File FileName="BarDemo/Models/Locations.cs" Line="11" Column="17" />
+      <File FileName="BarDemo/Models/GUser.cs" Line="1" Column="1" />
+      <File FileName="BarDemo.iOS/Info.plist" />
+      <File FileName="BarDemo.iOS/Entitlements.plist" />
+      <File FileName="BarDemo/Views/ProfilePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="BarDemo/Views/ProfilePage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BarDemo" expanded="True">
             <Node name="BarDemo" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True">
-                <Node name="SearchViewModel.cs" selected="True" />
+                <Node name="LoginViewModel.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="LoginPage.xaml" expanded="True" />
-                <Node name="MapPage.xaml" expanded="True" />
                 <Node name="ProfilePage.xaml" expanded="True" />
-                <Node name="SearchPage.xaml" expanded="True" />
-                <Node name="SignUpPage.xaml" expanded="True" />
               </Node>
             </Node>
-            <Node name="BarDemo.Android" expanded="True" />
             <Node name="BarDemo.iOS" expanded="True" />
           </Node>
         </State>

@@ -3,25 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="BarDemo.Views.LoginPage" Title="Login">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+        <ToolbarItem Text="Sign Up" Command="{Binding OnSignUpButtonClickedCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="Username" />
-            <Entry x:Name="usernameEntry" Placeholder="username" />
-            <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Button Text="Login" Clicked="OnLoginButtonClicked" />
-            <Label x:Name="messageLabel" />
-            <Button Text="GMail Login" Clicked="GMailLoginButtonClicked" />
-            <Label x:Name="GMailLoginStatus" />
+            <!--<Button Text="GMail Login" Command="{Binding GMailLoginButtonClicked}" /> -->
+            <!--<Label x:Name="GMailLoginStatus" /> -->
             <Button Text="Sign in with Facebook"
 			BackgroundColor="#455c9f"
 			TextColor="White"
 			Margin="20"
 			VerticalOptions="Center"
-            Clicked="FBLoginButtonClicked"/>
-
+            Command="{Binding OnFBLoginButtonClickedCommand}"/>
+            <Button ImageSource="Google_G_Icon.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+                    Margin="20" Command="{Binding OnGMailLoginButtonClickedCommand}" />
         </StackLayout>
     </ContentPage.Content>
     </ContentPage>

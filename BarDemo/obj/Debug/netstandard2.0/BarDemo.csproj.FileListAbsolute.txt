@@ -17,7 +17,6 @@
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/bin/Debug/netstandard2.0/BarDemo.deps.json
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/bin/Debug/netstandard2.0/BarDemo.dll
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/bin/Debug/netstandard2.0/BarDemo.pdb
-/Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/BarDemo.csprojAssemblyReference.cache
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/Views/MapPage.xaml.g.cs
@@ -25,7 +24,6 @@
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/Views/SearchPage.xaml.g.cs
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/Views/SignUpPage.xaml.g.cs
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/Views/TabPage.xaml.g.cs
-/Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/BarDemo.csproj.CoreCompileInputs.cache
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/BarDemo.AssemblyInfoInputs.cache
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/BarDemo.AssemblyInfo.cs
 /Users/matt/Projects/GitHub/BarDemo/BarDemo/obj/Debug/netstandard2.0/XamlC.stamp

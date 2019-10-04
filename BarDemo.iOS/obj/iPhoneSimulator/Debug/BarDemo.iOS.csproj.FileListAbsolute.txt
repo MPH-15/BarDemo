@@ -55,12 +55,6 @@
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/bin/iPhoneSimulator/Debug/BarDemo.dll
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/bin/iPhoneSimulator/Debug/BarDemo.pdb
-/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.csprojAssemblyReference.cache
-/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.csproj.CoreCompileInputs.cache
-/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.csproj.CopyComplete
-/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.exe
-/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.pdb
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/ibtool/_BundleResourceWithLogicalName.items
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/actool/_PartialAppManifest.items
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/actool/_BundleResourceWithLogicalName.items
@@ -88,4 +82,11 @@
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/optimized/search.png
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/optimized/shaker.png
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/optimized/xamarin.png
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/optimized/red1pin.png
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/optimized/Google_G_Icon.png
 /Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.0/optimized/
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.csprojAssemblyReference.cache
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.csproj.CopyComplete
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.exe
+/Users/matt/Projects/GitHub/BarDemo/BarDemo.iOS/obj/iPhoneSimulator/Debug/BarDemo.iOS.pdb

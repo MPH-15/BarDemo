@@ -20,8 +20,6 @@
             <x:String>Female</x:String>
             </Picker.Items>
             </Picker>
-            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
-            <Label x:Name="messageLabel" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -62,7 +62,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.815419, )"
+              "version": "[4.3.0.991211, )"
             }
           }
         }
@@ -119,7 +119,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.2, )"
+              "version": "[12.0.3, )"
             },
             "Xam.Plugin.Geolocator": {
               "target": "Package",
@@ -135,11 +135,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.815419, )"
+              "version": "[4.3.0.991211, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.2.0.815419, )"
+              "version": "[4.3.0.991211, )"
             }
           },
           "imports": [

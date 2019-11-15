@@ -11,6 +11,7 @@ namespace BarDemo.Models
         public List<Business> businesses { get; set; }
         public int total { get; set; }
         public Region region { get; set; }
+
     }
 
     [JsonObject]

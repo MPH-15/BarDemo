@@ -21,48 +21,47 @@ namespace BarDemo.ViewModels
 {
     public class LoginViewModel :  BaseViewModel
     {
+        public bool GMailAuth;
+        public bool FBAuth;
         Account account;
 
-        //private string usernameEntry;
-        //public string UsernameEntry
-        //{
-        //    get { return usernameEntry; }
-        //    set
-        //    {
-        //        usernameEntry = value;
-        //        OnPropertyChanged();
-
-        //    }
-        //}
-
-        //private string passwordEntry;
-        //public string PasswordEntry
-        //{
-        //    get { return passwordEntry; }
-        //    set
-        //    {
-        //        passwordEntry = value;
-        //        OnPropertyChanged();
-
-        //    }
-        //}
 
 
-        public Command OnSignUpButtonClickedCommand => new Command(OnSignUpButtonClicked);
-        public Command OnGMailLoginButtonClickedCommand => new Command(GMailLoginButtonClicked);
-        public Command OnFBLoginButtonClickedCommand => new Command(FBLoginButtonClicked);
-//        public Command OnLoginButtonClickedCommand => new Command(OnLoginButtonClicked);
-
-
-
-        async void OnSignUpButtonClicked() //object sender, EventArgs e)
+        Command _gMailCommand;
+        public Command GMailCommand
         {
-            await Application.Current.MainPage.Navigation.PushAsync(new SignUpPage());
-            //await Navigation.PushAsync(new SignUpPage());
+            get
+            {
+                return _gMailCommand ?? (_gMailCommand = new Command(async () => await ExecuteGMailCommand()));
+            }
         }
 
-        void GMailLoginButtonClicked()// object sender, EventArgs e)
+
+        Command _fbCommand;
+        public Command FBCommand
         {
+            get
+            {
+                return _fbCommand ?? (_fbCommand = new Command(async () => await ExecuteFBCommand()));
+            }
+        }
+
+
+        public LoginViewModel(INavService navService) : base(navService)
+        {
+            
+        }
+
+        public override async Task Init()
+        {
+            
+        }
+
+
+
+        public async void GMailLoginButtonClicked()
+        {
+            
             string clientId = null;
             string redirectUri = null;
 
@@ -101,7 +100,7 @@ namespace BarDemo.ViewModels
 
         }
 
-        async void OnAuthCompleted(object sender, AuthenticatorCompletedEventArgs e)
+        public async void OnAuthCompleted(object sender, AuthenticatorCompletedEventArgs e)
         {
             var authenticator = sender as OAuth2Authenticator;
             if (authenticator != null)
@@ -113,6 +112,7 @@ namespace BarDemo.ViewModels
             GUser user = null;
             if (e.IsAuthenticated)
             {
+                GMailAuth = true;
                 // If the user is authenticated, request their basic user data from Google
                 // UserInfoUrl = https://www.googleapis.com/oauth2/v2/userinfo
                 var request = new OAuth2Request("GET", new Uri(Constants.UserInfoUrl), null, e.Account);
@@ -142,20 +142,12 @@ namespace BarDemo.ViewModels
                     Debug.WriteLine("Account isn't null");
                 }
 
-                //Navigation.InsertPageBefore(new TabPage(), this);
-                //await Navigation.PopAsync();
-                /// This is currently pushing a page to the top of the navigation stack
-                /// and will allow you to go back to the Login Page. We need to fix this to
-                /// where you can't go back to the login page.
-                /// To go back to the login page, we need to require a logout button in the
-                /// Profile page. 
+                await ExecuteSearchCommand();
 
-                await Application.Current.MainPage.Navigation.PopToRootAsync();
-                await Application.Current.MainPage.Navigation.PushAsync(new TabPage());
             }
         }
 
-        void OnAuthError(object sender, AuthenticatorErrorEventArgs e)
+        public void OnAuthError(object sender, AuthenticatorErrorEventArgs e)
         {
             var authenticator = sender as OAuth2Authenticator;
             if (authenticator != null)
@@ -168,7 +160,9 @@ namespace BarDemo.ViewModels
         }
 
 
-        void FBLoginButtonClicked()//object sender, EventArgs e)
+
+
+        public void FBLoginButtonClicked()
         {
 
             string clientId = null;
@@ -187,15 +181,6 @@ namespace BarDemo.ViewModels
                     break;
             }
 
-            //var FBauthenticator = new OAuth2Authenticator(
-            //clientId,
-            //null,
-            //Constants.FBScope,
-            //new Uri(Constants.FBAuthorizeUrl),
-            //new Uri(redirectUri),
-            //null,
-            //null,
-            //true);
 
             var FBauthenticator = new OAuth2Authenticator(
              clientId: clientId,
@@ -204,8 +189,6 @@ namespace BarDemo.ViewModels
              redirectUrl: new Uri(Constants.FBiOSRedirectUrl),
              isUsingNativeUI: false
              );
-
-
 
             FBauthenticator.Completed += OnFBAuthCompleted;
             FBauthenticator.Error += OnAuthError;
@@ -217,7 +200,9 @@ namespace BarDemo.ViewModels
 
         }
 
-        async void OnFBAuthCompleted(object sender, AuthenticatorCompletedEventArgs e)
+
+
+        public async void OnFBAuthCompleted(object sender, AuthenticatorCompletedEventArgs e)
         {
             var authenticator = sender as OAuth2Authenticator;
             if (authenticator != null)
@@ -229,110 +214,54 @@ namespace BarDemo.ViewModels
             FBUser user = null;
             if (e.IsAuthenticated)
             {
+                FBAuth = true;
                 Debug.WriteLine("Facebook Authenticated! ");
-                // If the user is authenticated, request their basic user data from Google
-                // UserInfoUrl = https://www.googleapis.com/oauth2/v2/userinfo
-                // ***  Fix the portion below
-                /*
-                           var request = new OAuth2Request("GET", new Uri(Constants.UserInfoUrl), null, e.Account);
 
-                           var response = await request.GetResponseAsync();
-                           if (response != null)
-                           {
+                var request = new OAuth2Request(
+                    "GET",
+                    new Uri("https://graph.facebook.com/me?fields=name,gender"),
+                    null,
+                    e.Account);
 
-                               // Deserialize the data and store it in the account store
-                               // The users email address will be used to identify data in SimpleDB
-                               string userJson = await response.GetResponseTextAsync();
-                               user = JsonConvert.DeserializeObject<FBUser>(userJson);
-                               Debug.WriteLine("Email : " + user.Email);
-                               Debug.WriteLine("Verified Email?: " + user.VerifiedEmail);
-                               Debug.WriteLine("Family Name : " + user.FamilyName);
-                               Debug.WriteLine("Given Name : " + user.GivenName);
-                               Debug.WriteLine("Name : " + user.Name);
-                               Debug.WriteLine("Picture : " + user.Picture);
-                               Debug.WriteLine("Gender : " + user.Locale);
-                           }
+                var response = await request.GetResponseAsync();
+                if (response != null)
+                {
+                    string userJson = await response.GetResponseTextAsync();
+                    user = JsonConvert.DeserializeObject<FBUser>(userJson);
 
-               */
+                    Debug.WriteLine("User Name: " + user.Name);
+                    Debug.WriteLine("User Gender: " + user.Gender);
+
+                }
+
+
                 if (account != null)
                 {
                     //store.Delete(account, Constants.AppName);
                     Debug.WriteLine("Account isn't null");
                 }
 
-                await Application.Current.MainPage.Navigation.PushAsync(new TabPage());
+                await ExecuteSearchCommand();
 
             }
         }
 
 
-        //async void OnLoginButtonClicked()//object sender, EventArgs e)
-        //{
-        //    var user = new User
-        //    {
-        //        Username = usernameEntry,
-        //        Password = passwordEntry
-        //    };
-        //    Debug.WriteLine(user.Username);
-        //    Debug.WriteLine(user.Password);
+        async Task ExecuteGMailCommand()
+        {
+            GMailLoginButtonClicked();
+        }
 
-        //    var userlist = await GetUsers();
+        async Task ExecuteFBCommand()
+        {
+            FBLoginButtonClicked();
+        }
 
-
-        //    var isValid = AreCredentialsCorrect(userlist, user);
-        //    //var isValid = AreCredentialsCorrect(user);
-        //    if (isValid)
-        //    {
-        //        Debug.WriteLine("Login is Valid");
-        //        App.IsUserLoggedIn = true;
-        //        await Application.Current.MainPage.Navigation.PushAsync(new TabPage());
-        //        //Application.Current.MainPage.Navigation.InsertPageBefore(new TabPage(), this);
-        //        //await Application.Current.MainPage.Navigation.PopAsync();
-        //        //Navigation.PushAsync(new TabPage());
-        //        // The item above includes the ability to go back to the
-        //        // login page. 
-
-        //    }
-        //    else
-        //    {
-        //        //messageLabel.Text = "Login failed";
-        //        //passwordEntry.Text = string.Empty;
-        //        Debug.WriteLine("Login is INVALID");
-        //    }
-        //}
-
-
-        //bool AreCredentialsCorrect(User[] users, User user)
-        //{
-        //    var ulist = users;
-        //    bool usercheck = false;
-        //    for (int i = 0; i <= ulist.Count() - 1; i++)
-        //    {
-        //        Debug.WriteLine(ulist[i].Username);
-        //        Debug.WriteLine(ulist[i].Password);
-        //        if (ulist[i].Username == user.Username && ulist[i].Password == user.Password)
-        //        {
-        //            usercheck = true;
-        //        }
-        //    }
-        //    return usercheck;
-        //    //return user.Username == Constants.Username && user.Password == Constants.Password;
-        //}
-
-
-        //public async Task<User[]> GetUsers()
-        //{
-        //    Uri bd_Server = new Uri("https://bardemo.azurewebsites.net");
-        //    var ds = new DataService(bd_Server);
-        //    var person = await ds.GetUserItems();
-        //    for (int i = 0; i <= person.Count() - 1; i++)
-        //    {
-        //        Debug.WriteLine("Id : " + person[i].Id);
-        //    }
-        //    return person;
-        //}
-
-
+        async Task ExecuteSearchCommand()
+        {
+            await NavService.NavigateTo<SearchViewModel>();
+            await NavService.RemoveLastView();
+        }
 
 
     }

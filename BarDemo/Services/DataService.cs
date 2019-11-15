@@ -35,13 +35,13 @@ namespace BarDemo.Services
 
 
 
-        public async Task<User[]> GetUserItems()
-        {
-            var url = new Uri(_baseUri, "/Tables/User");
-            User[] response = await SendRequestAsync<User[]>(url, HttpMethod.Get, _headers);
+        //public async Task<User[]> GetUserItems()
+        //{
+        //    var url = new Uri(_baseUri, "/Tables/User");
+        //    User[] response = await SendRequestAsync<User[]>(url, HttpMethod.Get, _headers);
 
-            return response;
-        }
+        //    return response;
+        //}
 
 
         public async Task<IList<Locations>> GetEntriesAsync()

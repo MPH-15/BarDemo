@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using BarDemo.Services;
+using BarDemo.ViewModels;
 
 using Xamarin.Forms;
 
@@ -10,6 +12,10 @@ namespace BarDemo.Views
         public ProfilePage()
         {
             InitializeComponent();
+
+            BindingContext = new ProfileViewModel(DependencyService.Get<INavService>());
+
+
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using Xamarin.Forms.Xaml;
 using BarDemo.ViewModels;
 using BarDemo.Models;
+using BarDemo.Services;
 using Xamarin.Forms;
 using System.Diagnostics;
 
@@ -22,9 +23,10 @@ namespace BarDemo.Views
         public SearchPage()
         {
             InitializeComponent();
-            BindingContext = new SearchViewModel();
+           // BindingContext = new SearchViewModel();
+            BindingContext = new SearchViewModel(DependencyService.Get<INavService>());
 
-            
+
         }
 
         void New_Clicked(object sender, EventArgs e)

@@ -1,24 +1,43 @@
 ﻿<Properties StartupConfiguration="{44F0BCFE-29E8-4540-8DAB-59C5DD57E306}|Default">
   <MonoDevelop.Ide.ItemProperties.BarDemo.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/ViewModels/LoginViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarDemo/Services/IAuthService.cs">
     <Files>
-      <File FileName="BarDemo/Views/LoginPage.xaml" Line="19" Column="83" />
-      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="140" Column="1" />
-      <File FileName="BarDemo/ViewModels/LoginViewModel.cs" Line="154" Column="88" />
-      <File FileName="BarDemo/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
-      <File FileName="BarDemo/Services/BaseHttpService.cs" Line="13" Column="30" />
-      <File FileName="BarDemo/Services/DataService.cs" Line="31" Column="51" />
-      <File FileName="BarDemo/Services/YelpDataService.cs" Line="29" Column="49" />
-      <File FileName="BarDemo/ViewModels/SearchViewModel.cs" Line="142" Column="1" />
-      <File FileName="BarDemo/Models/YelpBizSearch.cs" Line="11" Column="18" />
-      <File FileName="BarDemo/Models/FBUser.cs" Line="6" Column="13" />
-      <File FileName="BarDemo/Models/User.cs" Line="8" Column="13" />
-      <File FileName="BarDemo/Models/Locations.cs" Line="11" Column="17" />
-      <File FileName="BarDemo/Models/GUser.cs" Line="1" Column="1" />
-      <File FileName="BarDemo.iOS/Info.plist" />
-      <File FileName="BarDemo.iOS/Entitlements.plist" />
-      <File FileName="BarDemo/Views/ProfilePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="BarDemo/Views/ProfilePage.xaml" Line="1" Column="1" />
+      <File FileName="BarDemo/Views/LoginPage.xaml.cs" Line="45" Column="12" />
+      <File FileName="BarDemo/Views/MapPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="BarDemo/App.xaml.cs" Line="18" Column="1" />
+      <File FileName="BarDemo/Views/LoginPage.xaml" />
+      <File FileName="BarDemo/ViewModels/LoginViewModel.cs" Line="83" Column="44" />
+      <File FileName="BarDemo/Views/SearchPage.xaml.cs" Line="9" Column="18" />
+      <File FileName="BarDemo/Views/SearchPage.xaml" Line="19" Column="1" />
+      <File FileName="BarDemo/Views/MapPage.xaml" Line="12" Column="7" />
+      <File FileName="BarDemo/ViewModels/ProfileViewModel.cs" />
+      <File FileName="BarDemo/Services/INavService.cs" />
+      <File FileName="BarDemo/Services/NavService.cs" Line="1" Column="1" />
+      <File FileName="BarDemo/ViewModels/BaseViewModel.cs" Line="12" Column="13" />
+      <File FileName="BarDemo/ViewModels/SearchViewModel.cs" Line="133" Column="11" />
+      <File FileName="BarDemo/Views/ProfilePage.xaml.cs" Line="22" Column="1" />
+      <File FileName="BarDemo/Views/ProfilePage.xaml" Line="36" Column="1" />
+      <File FileName="BarDemo.iOS/Main.cs" />
+      <File FileName="BarDemo/Services/IDataService.cs" Line="12" Column="5" />
+      <File FileName="BarDemo.iOS/CustomMapRenderer.cs" />
+      <File FileName="BarDemo/Models/YelpBizSearch.cs" Line="23" Column="17" />
+      <File FileName="BarDemo/Services/YelpDataService.cs" />
+      <File FileName="BarDemo/Models/AuthenticationState.cs" Line="11" Column="1" />
+      <File FileName="BarDemo/Models/Constants.cs" Line="11" Column="1" />
+      <File FileName="BarDemo/Models/CustomMap.cs" Line="11" Column="1" />
+      <File FileName="BarDemo/Models/GUser.cs" Line="15" Column="6" />
+      <File FileName="BarDemo/Models/Locations.cs" Line="16" Column="1" />
+      <File FileName="BarDemo/Models/FBUser.cs" Line="15" Column="6" />
+      <File FileName="BarDemo/Services/DataService.cs" Line="44" Column="12" />
+      <File FileName="BarDemo/Views/TabPage.xaml" Line="13" Column="1" />
+      <File FileName="BarDemo/App.xaml" Line="7" Column="11" />
+      <File FileName="BarDemo/Models/CustomPin.cs" Line="12" Column="1" />
+      <File FileName="BarDemo/Models/User.cs" Line="59" Column="1" />
+      <File FileName="BarDemo/Views/SignUpPage.xaml.cs" Line="43" Column="12" />
+      <File FileName="BarDemo/Views/SignUpPage.xaml" Line="25" Column="15" />
+      <File FileName="BarDemo/Views/TabPage.xaml.cs" Line="17" Column="6" />
+      <File FileName="BarDemo/Services/BaseHttpService.cs" Line="14" Column="19" />
+      <File FileName="BarDemo/Services/IAuthService.cs" Line="15" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,15 +45,21 @@
           <Node name="BarDemo" expanded="True">
             <Node name="BarDemo" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="LoginViewModel.cs" selected="True" />
+              <Node name="Services" expanded="True">
+                <Node name="IAuthService.cs" selected="True" />
               </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="MapPage.xaml" expanded="True" />
                 <Node name="ProfilePage.xaml" expanded="True" />
+                <Node name="SearchPage.xaml" expanded="True" />
+                <Node name="SignUpPage.xaml" expanded="True" />
+                <Node name="TabPage.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
+            <Node name="BarDemo.Android" expanded="True" />
             <Node name="BarDemo.iOS" expanded="True" />
           </Node>
         </State>
@@ -46,7 +71,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.BarDemo.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A45F6F45-504D-4093-9391-08E3230F8833" />
+  <MonoDevelop.Ide.ItemProperties.BarDemo.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.06124A6C-48FE-4218-98B1-DE0145915799" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

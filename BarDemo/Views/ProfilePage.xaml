@@ -8,9 +8,7 @@
     <Page.Resources>
         <!--<u:App x:Key="user"/>-->
     </Page.Resources>
-    <ContentPage.BindingContext>
-        <u:ProfileViewModel/>
-    </ContentPage.BindingContext>
+
     <ContentPage.Content>
         <ScrollView >
             <StackLayout Spacing="0" Padding="0" BackgroundColor="White">

@@ -2,21 +2,38 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="BarDemo.Views.LoginPage" Title="Login">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Sign Up" Command="{Binding OnSignUpButtonClickedCommand}" />
-    </ContentPage.ToolbarItems>
+   <!-- <ContentPage.ToolbarItems> -->
+   <!--     <ToolbarItem Text="Sign Up" Command="{Binding OnSignUpButtonClickedCommand}" /> -->
+   <!-- </ContentPage.ToolbarItems> -->
     <ContentPage.Content>
         <StackLayout VerticalOptions="StartAndExpand">
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+            <Button />
             <!--<Button Text="GMail Login" Command="{Binding GMailLoginButtonClicked}" /> -->
             <!--<Label x:Name="GMailLoginStatus" /> -->
-            <Button Text="Sign in with Facebook"
+            <!--<Button Text="Sign in with Facebook"
 			BackgroundColor="#455c9f"
 			TextColor="White"
 			Margin="20"
 			VerticalOptions="Center"
             Command="{Binding OnFBLoginButtonClickedCommand}"/>
             <Button ImageSource="Google_G_Icon.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-                    Margin="20" Command="{Binding OnGMailLoginButtonClickedCommand}" />
+                    Margin="20" Command="{Binding OnGMailLoginButtonClickedCommand}" />-->
+
+            <Button Text="GMail Login" Clicked="GMailCommand" />
+            <Label x:Name="GMailLoginStatus" />
+            <Button Text="Sign in with Facebook"
+			BackgroundColor="#455c9f"
+			TextColor="White"
+			Margin="20"
+			VerticalOptions="Center"
+            Clicked="FBCommand"/>
         </StackLayout>
     </ContentPage.Content>
     </ContentPage>

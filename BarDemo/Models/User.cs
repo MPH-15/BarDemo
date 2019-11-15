@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-
+/*
 
 namespace BarDemo.Models
 {
@@ -53,3 +53,6 @@ namespace BarDemo.Models
 
         }
 }
+
+    */
+

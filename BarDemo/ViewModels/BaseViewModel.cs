@@ -1,6 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using BarDemo.Services;
+using System.Threading.Tasks;
 
 namespace BarDemo.ViewModels
 {
@@ -34,6 +36,9 @@ namespace BarDemo.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        protected INavService NavService { get; private set; }
+
+
         bool _isBusy;
         public bool IsBusy
         {
@@ -46,10 +51,14 @@ namespace BarDemo.ViewModels
             }
         }
 
-        protected BaseViewModel()
+        protected BaseViewModel(INavService navService)
         {
-
+            NavService = navService;
         }
+
+
+        public abstract Task Init();
+
 
         /*
          * proteced is an access modifier, simmilar to public and private. 
@@ -78,5 +87,21 @@ namespace BarDemo.ViewModels
         protected virtual void OnIsBusyChanged()
         {
         }
+
+
+    }
+
+    public abstract class BaseViewModel<TParameter> : BaseViewModel
+    {
+        protected BaseViewModel(INavService navService) : base(navService)
+        {
+        }
+
+        public override async Task Init()
+        {
+            await Init(default(TParameter));
+        }
+
+        public abstract Task Init(TParameter parameter);
     }
 }
